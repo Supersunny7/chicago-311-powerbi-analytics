@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/Supersunny7/chicago-311-powerbi-analytics",
+  "visibility": "public",
+  "default_branch": "main",
+  "release": "https://github.com/Supersunny7/chicago-311-powerbi-analytics/releases/tag/v1.0.0",
+  "pbix_download": "https://github.com/Supersunny7/chicago-311-powerbi-analytics/releases/download/v1.0.0/Chicago311.pbix",
+  "unauthenticated_repository_access_verified": true,
+  "readme_source_and_pbix_present_in_remote_tree": true,
+  "unauthenticated_pbix_download_verified": true,
+  "pbix_download_bytes": 5054499,
+  "download_sha256_matches_local": true,
+  "local_caches_and_configuration_backups_excluded": true,
+  "hosted_powerbi_service_report": false
+}
