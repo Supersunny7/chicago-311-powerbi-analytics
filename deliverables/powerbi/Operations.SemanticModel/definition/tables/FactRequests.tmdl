@@ -208,7 +208,7 @@ table FactRequests
 		mode: import
 		source =
 				let
-				 Source = Csv.Document(File.Contents("C:/Users/sunny/Documents/MSIT Northwestern/projects/project-0011-Chicago311-PowerBI/03-执行内容/data/FactRequests.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				 Source = Csv.Document(File.Contents("C:/Chicago311/src/data/FactRequests.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
 				 Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				 Typed = Table.TransformColumnTypes(Headers, {{"sr_number", type text}, {"service_type", type text}, {"status", type text}, {"created_day", type date}, {"closed_day", type date}, {"created_month", type text}, {"created_week", type text}, {"community_area", Int64.Type}, {"ward", Int64.Type}, {"duplicate", type logical}, {"legacy_record", type logical}, {"is_included", type logical}, {"status_closed", type logical}, {"valid_closed", type logical}, {"is_open", type logical}, {"is_canceled", type logical}, {"resolution_days", type number}, {"open_age_days", type number}, {"age_band", type text}, {"origin", type text}, {"owner_department", type text}}, "en-US")
 				in

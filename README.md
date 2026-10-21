@@ -5,7 +5,7 @@ Portfolio project by Sunny Li | October 2026
 
 Which services and community areas warrant investigation for long closure times and remaining open requests? This project turns 192,857 Chicago 311 records into a three-page Power BI report, with a documented cohort definition and independent checks of live DAX results.
 
-**[Download the Power BI report](https://github.com/Supersunny7/chicago-311-powerbi-analytics/releases/download/v1.0.0/Chicago311.pbix)** · **[Browse the PBIP source](05-交付物/powerbi/Chicago311.pbip)** · **[Metric validation evidence](04-验证与测试/live-metric-reconciliation.json)**
+**[Download the Power BI report](https://github.com/Supersunny7/chicago-311-powerbi-analytics/releases/download/v1.0.0/Chicago311.pbix)** · **[Browse the PBIP source](deliverables/powerbi/Chicago311.pbip)** · **[Metric validation evidence](validation/live-metric-reconciliation.json)**
 
 The PBIX is a downloadable, interactive Desktop report. This repository does not provide a publicly hosted Power BI Service dashboard.
 
@@ -65,33 +65,33 @@ The report imports prepared CSV snapshots through typed Power Query transformati
 
 ## Open the report
 
-Download `05-交付物/powerbi/Chicago311.pbix` using GitHub's raw download option, then open it in a recent Power BI Desktop version supporting PBIR. The file contains an imported data model, so viewing the saved snapshot does not require a source refresh or a Power BI Service sign-in.
+Download `deliverables/powerbi/Chicago311.pbix` using GitHub's raw download option, then open it in a recent Power BI Desktop version supporting PBIR. The file contains an imported data model, so viewing the saved snapshot does not require a source refresh or a Power BI Service sign-in.
 
-For source control, open `05-交付物/powerbi/Chicago311.pbip`. Keep `Operations.Report` and `Operations.SemanticModel` beside it. PBIP is the folder-based source; PBIX is the standalone Desktop deliverable. Do not convert between them by renaming extensions.
+For source control, open `deliverables/powerbi/Chicago311.pbip`. Keep `Operations.Report` and `Operations.SemanticModel` beside it. PBIP is the folder-based source; PBIX is the standalone Desktop deliverable. Do not convert between them by renaming extensions.
 
-**Refreshing on another computer:** the five CSV sources currently use local absolute paths. Update those paths in Power Query to the CSV files under `03-执行内容/data` before refreshing. The included data is a fixed historical snapshot, not a live feed.
+**Refreshing on another computer:** the five CSV sources currently use local absolute paths. Update those paths in Power Query to the CSV files under `src/data` before refreshing. The included data is a fixed historical snapshot, not a live feed.
 
 ## Repository guide
 
 | Location | Contents |
 |---|---|
-| `01-需求与原始资料/` | Source snapshot, metadata, extraction manifest |
-| `03-执行内容/extract.py` | Public API extraction |
-| `03-执行内容/prepare_model_data.py` | Cleaning, CSV model inputs, SQLite outputs |
-| `03-执行内容/*_operations.sql` | Monthly and service analysis |
-| `03-执行内容/data/` | Prepared tables and analysis outputs |
-| `03-执行内容/verify_live_model.mjs` | Capture live Desktop DAX results through the local Microsoft MCP tool |
-| `03-执行内容/reconcile_live_metrics.py` | Compare captured DAX with pandas calculations |
-| `04-验证与测试/` | Data, metric, report, and native-window verification evidence |
-| `05-交付物/powerbi/` | PBIX deliverable and PBIP / PBIR / TMDL source |
-| `05-交付物/数据刷新与三页验收说明.md` | Chinese explanation and interview walkthrough |
+| `data-raw/` | Source snapshot, metadata, extraction manifest |
+| `src/extract.py` | Public API extraction |
+| `src/prepare_model_data.py` | Cleaning, CSV model inputs, SQLite outputs |
+| `src/*_operations.sql` | Monthly and service analysis |
+| `src/data/` | Prepared tables and analysis outputs |
+| `src/verify_live_model.mjs` | Capture live Desktop DAX results through the local Microsoft MCP tool |
+| `src/reconcile_live_metrics.py` | Compare captured DAX with pandas calculations |
+| `validation/` | Data, metric, report, and native-window verification evidence |
+| `deliverables/powerbi/` | PBIX deliverable and PBIP / PBIR / TMDL source |
+| `deliverables/VALIDATION_WALKTHROUGH.md` | Workflow and interview walkthrough |
 
 Python analysis requires pandas and NumPy. The live verification helper additionally requires the local Microsoft Power BI Modeling MCP installation; its current local setup paths are documented in the code. It is not a portable one-command verification environment.
 
 For the preserved snapshot, rerun the independent reconciliation from the project root:
 
 ```powershell
-python "03-执行内容/reconcile_live_metrics.py"
+python "src/reconcile_live_metrics.py"
 ```
 
 `extract.py` and `prepare_model_data.py` write their outputs into this project. Run them in a separate copy when retrieving new data so the historical evidence is preserved. A new extraction may produce different statuses and counts.
@@ -111,3 +111,7 @@ The project does not yet include a Power BI Service deployment, scheduled/increm
 ## Data and attribution
 
 The underlying records are provided by the City of Chicago. Keep the source attribution and extraction manifest when sharing this analysis; consult the source portal's applicable data terms. No affiliation with or endorsement by the City of Chicago is implied.
+
+## English repository layout
+
+The public repository uses English folder and document names. Power Query source paths in the PBIP are templates under `C:/Chicago311/src/data`; update them to your local checkout before refreshing. The downloadable PBIX preserves the validated imported snapshot and does not require a refresh for viewing. Local setup and one-time documentation-generation helpers are omitted from this public source tree.

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
-const pages=path.join(root,'05-交付物/powerbi/Operations.Report/definition/pages');
+const pages=path.join(root,'deliverables/powerbi/Operations.Report/definition/pages');
 const lit=v=>({expr:{Literal:{Value:typeof v==='boolean'?String(v):typeof v==='number'?`${v}D`:`'${v.replaceAll("'","''")}'`}}});
 const col=v=>({solid:{color:lit(v)}});
 const props=(p,id)=>[{properties:p,...(id?{selector:{id:'default'}}:{})}];

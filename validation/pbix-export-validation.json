@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-10-20T20:20:56.246389-05:00",
+  "verifiedAt": "2026-10-21T01:46:03.849698+00:00",
   "file": "Chicago311.pbix",
   "sizeBytes": 5054499,
   "sha256": "b7b20a2d95aa9ee1380e3da67af4e901c453816b4c1e29fec9c55a1a0689122c",
@@ -16,10 +16,5 @@
   "reopenedInDesktop": true,
   "reopenEvidence": "Opened exported Chicago311.pbix from the native Open dialog; new Desktop window displayed 161706 requests, 96.8% closed, 5030 open, 0.9 median days without requesting refresh.",
   "originalPbipPreserved": true,
-  "isPubliclyHosted": false,
-  "reopenedPagesReviewed": [
-    "overview",
-    "performance",
-    "backlog"
-  ]
+  "isPubliclyHosted": false
 }

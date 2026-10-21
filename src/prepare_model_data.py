@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas as pd,numpy as np,json,sqlite3,datetime,hashlib
-p=Path(__file__).resolve().parents[1]; raw=p/'01-需求与原始资料'; out=p/'03-执行内容/data';out.mkdir(exist_ok=True)
+p=Path(__file__).resolve().parents[1]; raw=p/'data-raw'; out=p/'src/data';out.mkdir(exist_ok=True)
 m=json.loads((raw/'source-manifest.json').read_text());a=[]
 for f in m['pages']:a+=json.loads((raw/f['file']).read_text())
 d=pd.DataFrame(a);n0=len(d);d=d.sort_values('last_modified_date').drop_duplicates('sr_number',keep='last').copy()
@@ -30,14 +30,14 @@ dates=pd.DataFrame({'Date':pd.date_range('2025-10-01',asof.normalize())});dates[
 # SQLite runs the SQL transformations; CSVs are portable import snapshots for Power Query.
 con=sqlite3.connect(out/'operations.sqlite');f.to_sql('requests',con,if_exists='replace',index=False)
 sql="""WITH eligible AS (SELECT * FROM requests WHERE is_included=1), by_month AS (SELECT created_month,COUNT(*) requests,SUM(status_closed) closed,SUM(is_open) open FROM eligible GROUP BY created_month) SELECT *, requests-LAG(requests) OVER (ORDER BY created_month) AS month_change FROM by_month ORDER BY created_month;"""
-(p/'03-执行内容/monthly_operations.sql').write_text(sql,encoding='utf-8');pd.read_sql_query(sql,con).to_csv(out/'monthly_operations.csv',index=False)
+(p/'src/monthly_operations.sql').write_text(sql,encoding='utf-8');pd.read_sql_query(sql,con).to_csv(out/'monthly_operations.csv',index=False)
 sql2="""SELECT service_type,COUNT(*) AS requests,SUM(status_closed) AS closed,SUM(is_open) AS open,AVG(CASE WHEN valid_closed=1 THEN resolution_days END) AS mean_valid_closed_days FROM requests WHERE is_included=1 GROUP BY service_type ORDER BY open DESC;"""
-(p/'03-执行内容/service_operations.sql').write_text(sql2,encoding='utf-8');s=pd.read_sql_query(sql2,con);s.to_csv(out/'service_operations.csv',index=False)
+(p/'src/service_operations.sql').write_text(sql2,encoding='utf-8');s=pd.read_sql_query(sql2,con);s.to_csv(out/'service_operations.csv',index=False)
 e=f[f.is_included];closed=e[e.valid_closed];op=e[e.is_open]
 summary={'raw_rows':n0,'unique_requests':len(f),'duplicate_ids_removed':n0-len(f),'source_duplicate_flag':int(f.duplicate.sum()),'legacy_flag':int(f.legacy_record.sum()),'included_requests':len(e),'closed_requests':int(e.status_closed.sum()),'canceled_requests':int(e.is_canceled.sum()),'open_cohort_requests':int(e.is_open.sum()),'valid_closed_duration':len(closed),'closed_invalid_or_missing_date':int((e.status_closed & ~e.valid_closed).sum()),'median_closed_days':float(closed.resolution_days.median()),'p90_closed_days':float(closed.resolution_days.quantile(.9)),'median_open_age_days':float(op.open_age_days.median()),'asof_local':str(asof),'source_statuses':status,'services':s.to_dict('records')}
 checks={'unique_request_ids':bool(f.sr_number.is_unique),'cohort_partition':len(e)==summary['closed_requests']+summary['open_cohort_requests']+summary['canceled_requests'],'sql_total_equals_pandas':int(s.requests.sum())==len(e),'sql_open_equals_pandas':int(s.open.sum())==len(op),'duration_nonnegative':bool((closed.resolution_days>=0).all()),'no_unmapped_service':bool(f.service_type.notna().all()),'date_dim_covers_fact':bool(set(f.created_day.dropna())<=set(dates.Date))}
 assert all(checks.values()),checks
-(p/'04-验证与测试/data-validation.json').write_text(json.dumps({'checks':checks,'summary':summary},indent=2),encoding='utf-8')
+(p/'validation/data-validation.json').write_text(json.dumps({'checks':checks,'summary':summary},indent=2),encoding='utf-8')
 (out/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
 # A deterministic 300-row review sample for later Excel formula checks, not a full-data Excel claim.
 f.sample(min(300,len(f)),random_state=20261020).to_csv(out/'excel_review_sample.csv',index=False)

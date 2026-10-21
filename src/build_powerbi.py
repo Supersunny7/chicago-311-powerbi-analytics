@@ -1,9 +1,9 @@
 from pathlib import Path
 import json,uuid,shutil,ast
 import pandas as pd
-p=Path(__file__).resolve().parents[1];data=p/'03-执行内容/data';dest=p/'05-交付物/powerbi';dest.mkdir(exist_ok=True)
+p=Path(__file__).resolve().parents[1];data=p/'src/data';dest=p/'deliverables/powerbi';dest.mkdir(exist_ok=True)
 report=dest/'Operations.Report';model=dest/'Operations.SemanticModel';definition=report/'definition';definition.mkdir(parents=True,exist_ok=True)
-seed=Path(r'C:\Users\sunny\Documents\MSIT Northwestern\projects\project-0007-Ecommerce-Analytics\99-临时与缓存\pbi-seed.Report')
+seed=Path(r'C:\Users\sunny\Documents\MSIT Northwestern\projects\project-0007-Ecommerce-Analytics\local-cache\pbi-seed.Report')
 summary=json.loads((data/'summary.json').read_text())
 def dump(path,obj):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(obj,indent=2,ensure_ascii=False),encoding='utf-8')
 measures={
@@ -84,7 +84,7 @@ chart('backlog','age_band','barChart',30,244,620,285,('FactRequests','age_band')
 chart('backlog','open_type','barChart',670,244,620,285,('DimService','service_type'),['Open Cohort Requests'],'Open cohort requests by service type')
 visual('backlog','priority_table','tableEx',30,551,1260,190,{'Values':[('DimArea','area_label',False),('FactRequests','Open Cohort Requests',True),('FactRequests','Open Over 90 Days',True),('FactRequests','Median Open Age Days',True)]},'Investigation shortlist — age is an analysis threshold, not an official SLA',sort=('FactRequests','Open Over 90 Days',True,'Descending'))
 (dest/'DAX_measures.txt').write_text('\n\n'.join(n+' =\n'+e for n,(e,_) in measures.items()),encoding='utf-8')
-dump(p/'04-验证与测试/powerbi-build.json',{'tables':5,'relationships':4,'measures':len(measures),'pages':3,'desktop_validation':'pending','pbix_saved':False})
+dump(p/'validation/powerbi-build.json',{'tables':5,'relationships':4,'measures':len(measures),'pages':3,'desktop_validation':'pending','pbix_saved':False})
 print(dest/'Chicago311.pbip')
 
 

@@ -15,6 +15,6 @@ try{
  const totals=await call('dax_query_operations',{operation:'Execute',query,resultMode:'Inline'});
  const services=await call('dax_query_operations',{operation:'Execute',query:'EVALUATE SUMMARIZECOLUMNS(DimService[service_type],"Requests",[Requests],"Closed",[Closed Requests],"Open",[Open Cohort Requests],"Median",[Median Closed Days],"P90",[P90 Closed Days]) ORDER BY DimService[service_type]',resultMode:'Inline'});
  const age=await call('dax_query_operations',{operation:'Execute',query:'EVALUATE SUMMARIZECOLUMNS(FactRequests[age_band],FactRequests[Age band order],"Open",[Open Cohort Requests]) ORDER BY FactRequests[Age band order]',resultMode:'Inline'});
- await fs.writeFile(path.join(root,'04-验证与测试/live-dax-results.json'),JSON.stringify({verifiedAt:new Date().toISOString(),connection:found[0].parentWindowTitle,query,totals,services,age},null,2));
+ await fs.writeFile(path.join(root,'validation/live-dax-results.json'),JSON.stringify({verifiedAt:new Date().toISOString(),connection:found[0].parentWindowTitle,query,totals,services,age},null,2));
  console.log(JSON.stringify({totals:totals.data.rows,services:services.data.rows,age:age.data.rows}));
 }finally{await c.close();}

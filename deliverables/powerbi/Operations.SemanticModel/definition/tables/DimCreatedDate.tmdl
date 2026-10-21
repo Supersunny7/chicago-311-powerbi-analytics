@@ -26,7 +26,7 @@ table DimCreatedDate
 		mode: import
 		source =
 				let
-				 Source = Csv.Document(File.Contents("C:/Users/sunny/Documents/MSIT Northwestern/projects/project-0011-Chicago311-PowerBI/03-执行内容/data/DimCreatedDate.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				 Source = Csv.Document(File.Contents("C:/Chicago311/src/data/DimCreatedDate.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
 				 Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				 Typed = Table.TransformColumnTypes(Headers, {{"Date", type date}, {"Month", type text}, {"Week", type text}}, "en-US")
 				in

@@ -4,7 +4,7 @@ p=Path(__file__).resolve().parents[1]
 TYPES=['Graffiti Removal Request','Pothole in Street Complaint','Street Light Out Complaint']
 where="created_date >= '2025-10-01T00:00:00' AND created_date < '2026-10-01T00:00:00' AND sr_type in ("+','.join("'"+x+"'" for x in TYPES)+')'
 fields='sr_number,sr_type,status,created_date,closed_date,last_modified_date,community_area,ward,duplicate,legacy_record,origin,owner_department'
-raw=p/'01-需求与原始资料'; pages=[];offset=0; started=datetime.datetime.now(datetime.timezone.utc).isoformat()
+raw=p/'data-raw'; pages=[];offset=0; started=datetime.datetime.now(datetime.timezone.utc).isoformat()
 while True:
  params={'$select':fields,'$where':where,'$order':'sr_number','$limit':50000,'$offset':offset}
  u='https://data.cityofchicago.org/resource/v6vf-nfxy.json?'+urllib.parse.urlencode(params)

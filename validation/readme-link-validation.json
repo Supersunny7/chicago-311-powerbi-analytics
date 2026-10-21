@@ -1,0 +1,27 @@
+[
+  {
+    "file": "README.md",
+    "target": "deliverables/powerbi/Chicago311.pbip",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "validation/live-metric-reconciliation.json",
+    "exists": true
+  },
+  {
+    "file": "deliverables\\README.md",
+    "target": "powerbi/Chicago311.pbix",
+    "exists": true
+  },
+  {
+    "file": "deliverables\\README.md",
+    "target": "../README.md",
+    "exists": true
+  },
+  {
+    "file": "deliverables\\README.md",
+    "target": "Resume_Project_Bullets.md",
+    "exists": true
+  }
+]
