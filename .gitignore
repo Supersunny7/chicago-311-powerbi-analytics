@@ -1,0 +1,32 @@
+# Local caches, tool installations, and configuration backups
+/99-临时与缓存/
+/00-项目管理/
+**/.pbi/
+**/localSettings.json
+**/cache.abf
+**/unappliedChanges.json
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+~$*
+Thumbs.db
+.DS_Store
+
+# Local installation helpers and connection-specific operational details
+/03-执行内容/configure_local_mcp.py
+/03-执行内容/install_shared_references.py
+/04-验证与测试/mcp-tool-schemas.json
+/04-验证与测试/mcp-configuration.json
+/04-验证与测试/skill-installation.json
+/04-验证与测试/live-connection-validation.json
+
+# SQLite can be regenerated from the preserved prepared CSV / source files
+/03-执行内容/data/operations.sqlite
+
+# Earlier reload shortcut; use Chicago311.pbip or Chicago311.pbix
+/05-交付物/powerbi/Chicago311-Validated.pbip

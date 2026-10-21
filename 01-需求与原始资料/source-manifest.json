@@ -1,0 +1,46 @@
+{
+  "source": "City of Chicago 311 Service Requests",
+  "dataset_id": "v6vf-nfxy",
+  "landing_url": "https://data.cityofchicago.org/d/v6vf-nfxy",
+  "started_utc": "2026-10-20T23:55:30.199121+00:00",
+  "completed_utc": "2026-10-20T23:57:04.968631+00:00",
+  "cohort_start": "2025-10-01",
+  "cohort_end_exclusive": "2026-10-01",
+  "types": [
+    "Graffiti Removal Request",
+    "Pothole in Street Complaint",
+    "Street Light Out Complaint"
+  ],
+  "pages": [
+    {
+      "file": "requests-000000.json",
+      "rows": 50000,
+      "sha256": "ac2d52cf906d178a21144e62f8b0af781537bd25542e0347e1419bd88f0dece6",
+      "query_url": "https://data.cityofchicago.org/resource/v6vf-nfxy.json?%24select=sr_number%2Csr_type%2Cstatus%2Ccreated_date%2Cclosed_date%2Clast_modified_date%2Ccommunity_area%2Cward%2Cduplicate%2Clegacy_record%2Corigin%2Cowner_department&%24where=created_date+%3E%3D+%272025-10-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-10-01T00%3A00%3A00%27+AND+sr_type+in+%28%27Graffiti+Removal+Request%27%2C%27Pothole+in+Street+Complaint%27%2C%27Street+Light+Out+Complaint%27%29&%24order=sr_number&%24limit=50000&%24offset=0"
+    },
+    {
+      "file": "requests-050000.json",
+      "rows": 50000,
+      "sha256": "856ea65b3bc81a16261f136c25d7ddd5e456b2ebf5a7c31869202fadf21ac5f5",
+      "query_url": "https://data.cityofchicago.org/resource/v6vf-nfxy.json?%24select=sr_number%2Csr_type%2Cstatus%2Ccreated_date%2Cclosed_date%2Clast_modified_date%2Ccommunity_area%2Cward%2Cduplicate%2Clegacy_record%2Corigin%2Cowner_department&%24where=created_date+%3E%3D+%272025-10-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-10-01T00%3A00%3A00%27+AND+sr_type+in+%28%27Graffiti+Removal+Request%27%2C%27Pothole+in+Street+Complaint%27%2C%27Street+Light+Out+Complaint%27%29&%24order=sr_number&%24limit=50000&%24offset=50000"
+    },
+    {
+      "file": "requests-100000.json",
+      "rows": 50000,
+      "sha256": "78293ff9a80efbede20ef5b0efa22b1aed186edb921f50ac433773b771f3dd25",
+      "query_url": "https://data.cityofchicago.org/resource/v6vf-nfxy.json?%24select=sr_number%2Csr_type%2Cstatus%2Ccreated_date%2Cclosed_date%2Clast_modified_date%2Ccommunity_area%2Cward%2Cduplicate%2Clegacy_record%2Corigin%2Cowner_department&%24where=created_date+%3E%3D+%272025-10-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-10-01T00%3A00%3A00%27+AND+sr_type+in+%28%27Graffiti+Removal+Request%27%2C%27Pothole+in+Street+Complaint%27%2C%27Street+Light+Out+Complaint%27%29&%24order=sr_number&%24limit=50000&%24offset=100000"
+    },
+    {
+      "file": "requests-150000.json",
+      "rows": 42857,
+      "sha256": "5f0321a17f4c3678ade9365956faf179c5c563104a09912d4aa0091f0312f135",
+      "query_url": "https://data.cityofchicago.org/resource/v6vf-nfxy.json?%24select=sr_number%2Csr_type%2Cstatus%2Ccreated_date%2Cclosed_date%2Clast_modified_date%2Ccommunity_area%2Cward%2Cduplicate%2Clegacy_record%2Corigin%2Cowner_department&%24where=created_date+%3E%3D+%272025-10-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-10-01T00%3A00%3A00%27+AND+sr_type+in+%28%27Graffiti+Removal+Request%27%2C%27Pothole+in+Street+Complaint%27%2C%27Street+Light+Out+Complaint%27%29&%24order=sr_number&%24limit=50000&%24offset=150000"
+    }
+  ],
+  "limitations": [
+    "Extraction is paged, not a transactionally frozen source snapshot.",
+    "Current status at extraction; no status-change history.",
+    "Cohort backlog excludes requests created outside the window.",
+    "Completed status does not establish resident-confirmed resolution."
+  ]
+}

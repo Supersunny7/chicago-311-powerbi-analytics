@@ -1,0 +1,122 @@
+[
+  {
+    "sr_type": "311 INFORMATION ONLY CALL",
+    "requests": "682153"
+  },
+  {
+    "sr_type": "Aircraft Noise Complaint",
+    "requests": "446184"
+  },
+  {
+    "sr_type": "Graffiti Removal Request",
+    "requests": "96820"
+  },
+  {
+    "sr_type": "Pothole in Street Complaint",
+    "requests": "59767"
+  },
+  {
+    "sr_type": "Abandoned Vehicle Complaint",
+    "requests": "52987"
+  },
+  {
+    "sr_type": "Garbage Cart Maintenance",
+    "requests": "52763"
+  },
+  {
+    "sr_type": "Tree Emergency",
+    "requests": "45862"
+  },
+  {
+    "sr_type": "Tree Debris Clean-Up Request",
+    "requests": "43846"
+  },
+  {
+    "sr_type": "Rodent Baiting/Rat Complaint",
+    "requests": "43629"
+  },
+  {
+    "sr_type": "Tree Trim Request (NO LONGER BEING ACCEPTED)",
+    "requests": "41114"
+  },
+  {
+    "sr_type": "Street Light Out Complaint",
+    "requests": "36270"
+  },
+  {
+    "sr_type": "Traffic Signal Out Complaint",
+    "requests": "28925"
+  },
+  {
+    "sr_type": "Blue Recycling Cart",
+    "requests": "24139"
+  },
+  {
+    "sr_type": "Building Violation",
+    "requests": "23123"
+  },
+  {
+    "sr_type": "Tree Removal Inspection",
+    "requests": "22614"
+  },
+  {
+    "sr_type": "Finance Parking Code Enforcement Review",
+    "requests": "22531"
+  },
+  {
+    "sr_type": "Yard Waste Pick-Up Request",
+    "requests": "19178"
+  },
+  {
+    "sr_type": "Fly Dumping Complaint",
+    "requests": "18845"
+  },
+  {
+    "sr_type": "Water On Street Complaint",
+    "requests": "17452"
+  },
+  {
+    "sr_type": "Dead Animal Pick-Up Request",
+    "requests": "17397"
+  },
+  {
+    "sr_type": "Sanitation Code Violation",
+    "requests": "16008"
+  },
+  {
+    "sr_type": "Water Lead Test Kit Request",
+    "requests": "15698"
+  },
+  {
+    "sr_type": "Inspect Public Way Request",
+    "requests": "14090"
+  },
+  {
+    "sr_type": "E-Scooter Parking Complaint",
+    "requests": "13478"
+  },
+  {
+    "sr_type": "Sign Repair Request - All Other Signs",
+    "requests": "13254"
+  },
+  {
+    "sr_type": "Stray Animal Complaint",
+    "requests": "12189"
+  },
+  {
+    "sr_type": "Check for Leak",
+    "requests": "11551"
+  },
+  {
+    "sr_type": "Alley Pothole Complaint",
+    "requests": "11476"
+  },
+  {
+    "sr_type": "Sewer Cleaning Inspection Request",
+    "requests": "11455"
+  },
+  {
+    "sr_type": "Missed Garbage Pick-Up Complaint",
+    "requests": "10079"
+  }
+]

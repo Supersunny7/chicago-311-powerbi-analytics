@@ -1,0 +1,32 @@
+Requests =
+CALCULATE(COUNTROWS(FactRequests), FactRequests[is_included] = TRUE())
+
+Closed Requests =
+CALCULATE([Requests], FactRequests[status_closed] = TRUE())
+
+Open Cohort Requests =
+CALCULATE([Requests], FactRequests[is_open] = TRUE())
+
+Closed Share =
+DIVIDE([Closed Requests], [Requests])
+
+Valid Closed Requests =
+CALCULATE([Requests], FactRequests[valid_closed] = TRUE())
+
+Median Closed Days =
+CALCULATE(MEDIAN(FactRequests[resolution_days]), FactRequests[is_included] = TRUE(), FactRequests[valid_closed] = TRUE())
+
+P90 Closed Days =
+PERCENTILEX.INC(FILTER(FactRequests, FactRequests[is_included] && FactRequests[valid_closed]), FactRequests[resolution_days], 0.9)
+
+Median Open Age Days =
+CALCULATE(MEDIAN(FactRequests[open_age_days]), FactRequests[is_included] = TRUE(), FactRequests[is_open] = TRUE())
+
+Open Over 90 Days =
+CALCULATE([Open Cohort Requests], FactRequests[open_age_days] > 90)
+
+Open Over 90 Share =
+DIVIDE([Open Over 90 Days], [Open Cohort Requests])
+
+Invalid Closed Dates =
+CALCULATE([Closed Requests], FactRequests[valid_closed] = FALSE())

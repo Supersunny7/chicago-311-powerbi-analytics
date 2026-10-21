@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pbix binary
+*.png binary
+*.jpg binary
+*.json text eol=lf
+*.csv text eol=lf
+*.tmdl text eol=lf

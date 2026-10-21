@@ -1,0 +1,1 @@
+SELECT service_type,COUNT(*) AS requests,SUM(status_closed) AS closed,SUM(is_open) AS open,AVG(CASE WHEN valid_closed=1 THEN resolution_days END) AS mean_valid_closed_days FROM requests WHERE is_included=1 GROUP BY service_type ORDER BY open DESC;

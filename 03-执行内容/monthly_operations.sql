@@ -1,0 +1,1 @@
+WITH eligible AS (SELECT * FROM requests WHERE is_included=1), by_month AS (SELECT created_month,COUNT(*) requests,SUM(status_closed) closed,SUM(is_open) open FROM eligible GROUP BY created_month) SELECT *, requests-LAG(requests) OVER (ORDER BY created_month) AS month_change FROM by_month ORDER BY created_month;

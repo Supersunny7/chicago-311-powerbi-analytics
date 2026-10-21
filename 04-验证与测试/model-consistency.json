@@ -1,0 +1,12 @@
+{
+  "FactRequests_columns_match": true,
+  "DimService_columns_match": true,
+  "DimService_key_unique": true,
+  "DimArea_columns_match": true,
+  "DimArea_key_unique": true,
+  "DimCreatedDate_columns_match": true,
+  "DimCreatedDate_key_unique": true,
+  "DimClosedDate_columns_match": true,
+  "DimClosedDate_key_unique": true,
+  "all_relationships_one_direction": true
+}

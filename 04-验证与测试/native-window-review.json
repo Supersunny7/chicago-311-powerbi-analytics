@@ -1,0 +1,29 @@
+{
+  "reviewedAt": "2026-10-20T19:51:34.6164852-05:00",
+  "reviewMethod": "Native Power BI window inspection through computer-use; explicitly requested by user",
+  "pagesReviewed": [
+    "overview",
+    "performance",
+    "backlog"
+  ],
+  "dataVisibleOnAllPages": true,
+  "communityMatricesHaveRows": true,
+  "medianP90DistinctColors": true,
+  "ageBandsChronological": true,
+  "dropdownSizingFixedOnThreePages": true,
+  "backlogServiceFilterTest": {
+    "service": "Street potholes",
+    "openOver90": 1327,
+    "medianOpenAgeDisplayed": 74.1,
+    "openRequests": 3234,
+    "resetOver90": 2661,
+    "resetOpenRequests": 5030,
+    "over90ShareDisplayed": "41.0%",
+    "resetOver90ShareDisplayed": "52.9%"
+  },
+  "recoveryFilesPreserved": true,
+  "desktopSaved": true,
+  "cliScreenshotAutomation": "Not passed; Desktop Bridge folder matching unavailable",
+  "pbixExportVerified": false,
+  "reviewLimit": "Native full-page inspection at 42% fit-to-page in the automation window; no claim of mobile or accessibility audit"
+}

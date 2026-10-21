@@ -1,0 +1,16 @@
+{
+  "project_file_exists": true,
+  "project_opened_in_desktop": true,
+  "pages_visible": 3,
+  "tables_visible": 5,
+  "initial_refresh": "failed",
+  "root_cause": "Power Query M string contained JSON Unicode escape sequences in Chinese folder path",
+  "source_fixed": true,
+  "m_paths_verified": 5,
+  "apply_external_changes": "loaded current polished report",
+  "refresh_after_fix": "passed through Desktop Refresh now",
+  "pbix_saved": true,
+  "automation_limit": "CLI Desktop Bridge folder matching unavailable; native window review completed at user request",
+  "native_review": "native-window-review.json",
+  "pbix_export_evidence": "pbix-export-validation.json"
+}

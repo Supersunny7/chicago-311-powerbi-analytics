@@ -1,0 +1,216 @@
+table FactRequests
+	lineageTag: fff0da92-6273-4c81-a838-d55302d840de
+
+	measure Requests = CALCULATE(COUNTROWS(FactRequests), FactRequests[is_included] = TRUE())
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: 155c53c9-f5c1-4a9d-a4c5-24ab9a82ab7a
+
+	measure 'Closed Requests' = CALCULATE([Requests], FactRequests[status_closed] = TRUE())
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: a6823d85-40ad-4bc7-b402-c5bd5181f6f2
+
+	measure 'Open Cohort Requests' = CALCULATE([Requests], FactRequests[is_open] = TRUE())
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: 61f357de-7623-450f-b300-011884f2c2fb
+
+	measure 'Closed Share' = DIVIDE([Closed Requests], [Requests])
+		formatString: 0.0%
+		displayFolder: Service operations
+		lineageTag: 87ccccef-d19e-4e66-b1bc-848cfc000763
+
+	measure 'Valid Closed Requests' = CALCULATE([Requests], FactRequests[valid_closed] = TRUE())
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: 9661bd55-15a5-464f-b52a-2caaf18c6a8b
+
+	measure 'Median Closed Days' = CALCULATE(MEDIAN(FactRequests[resolution_days]), FactRequests[is_included] = TRUE(), FactRequests[valid_closed] = TRUE())
+		formatString: 0.0
+		displayFolder: Service operations
+		lineageTag: 470c6689-96fc-4856-a069-a33e1f8fc7cd
+
+	measure 'P90 Closed Days' = PERCENTILEX.INC(FILTER(FactRequests, FactRequests[is_included] && FactRequests[valid_closed]), FactRequests[resolution_days], 0.9)
+		formatString: 0.0
+		displayFolder: Service operations
+		lineageTag: 27c84023-4990-43c8-a91e-8f77a8d190b7
+
+	measure 'Median Open Age Days' = CALCULATE(MEDIAN(FactRequests[open_age_days]), FactRequests[is_included] = TRUE(), FactRequests[is_open] = TRUE())
+		formatString: 0.0
+		displayFolder: Service operations
+		lineageTag: 4e1559ca-f3cb-4344-94a3-d9f320fa7b9f
+
+	measure 'Open Over 90 Days' = CALCULATE([Open Cohort Requests], FactRequests[open_age_days] > 90)
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: be4eebe0-4ca1-4571-98f2-b375d803a406
+
+	measure 'Open Over 90 Share' = DIVIDE([Open Over 90 Days], [Open Cohort Requests])
+		formatString: 0.0%
+		displayFolder: Service operations
+		lineageTag: 719dd482-c4fc-4c20-8c92-36c9fb7dbb6d
+
+	/// Included completed requests with missing, negative, or post-snapshot closure duration; zero means no invalid dates.
+	measure 'Invalid Closed Dates' = COALESCE(CALCULATE([Closed Requests], FactRequests[valid_closed] = FALSE()), 0)
+		formatString: #,0
+		displayFolder: Service operations
+		lineageTag: 11d0f3b0-f4ea-4b41-96f6-fa4c793fac3a
+
+	column sr_number
+		dataType: string
+		isHidden
+		lineageTag: 7c2f7dc1-319d-481d-9805-b4285875c6ab
+		summarizeBy: none
+		sourceColumn: sr_number
+
+	column service_type
+		dataType: string
+		lineageTag: ec667bc7-6812-465e-bb8a-45ba7f110eca
+		summarizeBy: none
+		sourceColumn: service_type
+
+	column status
+		dataType: string
+		lineageTag: 55304950-c77f-4390-8533-f4800a9a02b6
+		summarizeBy: none
+		sourceColumn: status
+
+	column created_day
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: d4a7cb24-3f66-4047-9058-2b4da0f73c5e
+		summarizeBy: none
+		sourceColumn: created_day
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column closed_day
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 3bd67bbf-2874-4b0f-9e39-435114fb80c1
+		summarizeBy: none
+		sourceColumn: closed_day
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column created_month
+		dataType: string
+		lineageTag: 22003533-edc3-4957-9d61-1ca4f828f25b
+		summarizeBy: none
+		sourceColumn: created_month
+
+	column created_week
+		dataType: string
+		lineageTag: 91d0546b-9726-400a-83ad-b642f1860f74
+		summarizeBy: none
+		sourceColumn: created_week
+
+	column community_area
+		dataType: int64
+		lineageTag: 2bad585b-3452-4621-9548-9cefffc8c51c
+		summarizeBy: none
+		sourceColumn: community_area
+
+	column ward
+		dataType: int64
+		lineageTag: b61fd8c9-7cec-4281-96d4-fd8f868ab6f1
+		summarizeBy: none
+		sourceColumn: ward
+
+	column duplicate
+		dataType: boolean
+		isHidden
+		lineageTag: 3ada183d-90b8-4227-876c-06ed5b5b5c28
+		summarizeBy: none
+		sourceColumn: duplicate
+
+	column legacy_record
+		dataType: boolean
+		isHidden
+		lineageTag: 3242755c-9a1a-4e6f-a0a1-ec3514a1ad56
+		summarizeBy: none
+		sourceColumn: legacy_record
+
+	column is_included
+		dataType: boolean
+		isHidden
+		lineageTag: 409a5b3b-0ebb-49b1-80aa-e77bac176658
+		summarizeBy: none
+		sourceColumn: is_included
+
+	column status_closed
+		dataType: boolean
+		isHidden
+		lineageTag: a6dde6af-29cb-4938-8326-6e64179af01d
+		summarizeBy: none
+		sourceColumn: status_closed
+
+	column valid_closed
+		dataType: boolean
+		isHidden
+		lineageTag: b621faf9-3d93-4ab1-9c03-b4c850abab55
+		summarizeBy: none
+		sourceColumn: valid_closed
+
+	column is_open
+		dataType: boolean
+		isHidden
+		lineageTag: 7fc7186f-9342-44f3-afad-2353ad990e32
+		summarizeBy: none
+		sourceColumn: is_open
+
+	column is_canceled
+		dataType: boolean
+		lineageTag: 2a35a7cb-79cb-4f65-9e33-7ac5f64581b3
+		summarizeBy: none
+		sourceColumn: is_canceled
+
+	column resolution_days
+		dataType: double
+		lineageTag: 48f4e45a-b550-46f7-a2eb-af17c94549e8
+		summarizeBy: none
+		sourceColumn: resolution_days
+
+	column open_age_days
+		dataType: double
+		lineageTag: bdaa07bf-1f1d-4926-be4a-c0db96951802
+		summarizeBy: none
+		sourceColumn: open_age_days
+
+	/// Open request age bands: 0–7, greater than 7–30, greater than 30–90, and over 90 fractional days. Not an official SLA.
+	column age_band
+		dataType: string
+		lineageTag: 3a76a594-c20a-4230-a4c3-e86b157f7d9f
+		summarizeBy: none
+		sourceColumn: age_band
+		sortByColumn: 'Age band order'
+
+	column origin
+		dataType: string
+		lineageTag: 6acf5972-e1bb-42a4-be42-3159e3a707ac
+		summarizeBy: none
+		sourceColumn: origin
+
+	column owner_department
+		dataType: string
+		lineageTag: 9577afbe-7797-4cc5-b400-3357208f20af
+		summarizeBy: none
+		sourceColumn: owner_department
+
+	/// Chronological ordering for open-request age bands at the fixed extraction snapshot.
+	column 'Age band order' = SWITCH(TRUE(), ISBLANK(FactRequests[open_age_days]), BLANK(), FactRequests[open_age_days] <= 7, 1, FactRequests[open_age_days] <= 30, 2, FactRequests[open_age_days] <= 90, 3, 4)
+		dataType: int64
+		isHidden
+		lineageTag: 77eb5117-23a6-4eb3-bd57-7ed1cad0e5ec
+
+	partition FactRequests = m
+		mode: import
+		source =
+				let
+				 Source = Csv.Document(File.Contents("C:/Users/sunny/Documents/MSIT Northwestern/projects/project-0011-Chicago311-PowerBI/03-执行内容/data/FactRequests.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				 Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				 Typed = Table.TransformColumnTypes(Headers, {{"sr_number", type text}, {"service_type", type text}, {"status", type text}, {"created_day", type date}, {"closed_day", type date}, {"created_month", type text}, {"created_week", type text}, {"community_area", Int64.Type}, {"ward", Int64.Type}, {"duplicate", type logical}, {"legacy_record", type logical}, {"is_included", type logical}, {"status_closed", type logical}, {"valid_closed", type logical}, {"is_open", type logical}, {"is_canceled", type logical}, {"resolution_days", type number}, {"open_age_days", type number}, {"age_band", type text}, {"origin", type text}, {"owner_department", type text}}, "en-US")
+				in
+				 Typed
+

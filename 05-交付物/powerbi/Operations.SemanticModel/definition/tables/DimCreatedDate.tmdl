@@ -1,0 +1,34 @@
+table DimCreatedDate
+	lineageTag: 7c55565e-d4e5-4e84-a96d-9a7d261f41d9
+
+	column Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 10a2aae5-e6e5-4d9d-9152-aa4c69281b88
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Month
+		dataType: string
+		lineageTag: e39af7ec-1e4a-4dfc-bbc4-16b0e69b0dd6
+		summarizeBy: none
+		sourceColumn: Month
+
+	column Week
+		dataType: string
+		lineageTag: 5ef2c344-7c1c-46ee-ab67-35188cbe70a9
+		summarizeBy: none
+		sourceColumn: Week
+
+	partition DimCreatedDate = m
+		mode: import
+		source =
+				let
+				 Source = Csv.Document(File.Contents("C:/Users/sunny/Documents/MSIT Northwestern/projects/project-0011-Chicago311-PowerBI/03-执行内容/data/DimCreatedDate.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				 Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				 Typed = Table.TransformColumnTypes(Headers, {{"Date", type date}, {"Month", type text}, {"Week", type text}}, "en-US")
+				in
+				 Typed
+

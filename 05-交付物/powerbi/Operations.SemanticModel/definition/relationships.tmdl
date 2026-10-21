@@ -1,0 +1,16 @@
+relationship e1ab2a9a-86cd-4944-9be9-8037ed7ee358
+	fromColumn: FactRequests.service_type
+	toColumn: DimService.service_type
+
+relationship 01abd9d7-243d-4720-8e44-0bb0e2e011ac
+	fromColumn: FactRequests.community_area
+	toColumn: DimArea.community_area
+
+relationship 11214af3-4a8b-4341-964c-316f9ff5194c
+	fromColumn: FactRequests.created_day
+	toColumn: DimCreatedDate.Date
+
+relationship e3494fa2-f3ac-405d-8bd4-39539de614de
+	fromColumn: FactRequests.closed_day
+	toColumn: DimClosedDate.Date
+

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "README.md",
+    "target": "05-\u4ea4\u4ed8\u7269/powerbi/Chicago311.pbix",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "05-\u4ea4\u4ed8\u7269/powerbi/Chicago311.pbip",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "04-\u9a8c\u8bc1\u4e0e\u6d4b\u8bd5/live-metric-reconciliation.json",
+    "exists": true
+  },
+  {
+    "file": "05-\u4ea4\u4ed8\u7269\\README.md",
+    "target": "powerbi/Chicago311.pbix",
+    "exists": true
+  },
+  {
+    "file": "05-\u4ea4\u4ed8\u7269\\README.md",
+    "target": "../README.md",
+    "exists": true
+  },
+  {
+    "file": "05-\u4ea4\u4ed8\u7269\\README.md",
+    "target": "Resume_Project_Bullets.md",
+    "exists": true
+  }
+]

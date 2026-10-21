@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "unique_request_ids": true,
+    "cohort_partition": true,
+    "sql_total_equals_pandas": true,
+    "sql_open_equals_pandas": true,
+    "duration_nonnegative": true,
+    "no_unmapped_service": true,
+    "date_dim_covers_fact": true
+  },
+  "summary": {
+    "raw_rows": 192857,
+    "unique_requests": 192857,
+    "duplicate_ids_removed": 0,
+    "source_duplicate_flag": 31151,
+    "legacy_flag": 0,
+    "included_requests": 161706,
+    "closed_requests": 156576,
+    "canceled_requests": 100,
+    "open_cohort_requests": 5030,
+    "valid_closed_duration": 156576,
+    "closed_invalid_or_missing_date": 0,
+    "median_closed_days": 0.9111400462962963,
+    "p90_closed_days": 12.76808449074074,
+    "median_open_age_days": 97.40820565545138,
+    "asof_local": "2026-10-20 18:57:04.968631",
+    "source_statuses": {
+      "Completed": 184438,
+      "Open": 8297,
+      "Canceled": 122
+    },
+    "services": [
+      {
+        "service_type": "Street potholes",
+        "requests": 37358,
+        "closed": 34117,
+        "open": 3234,
+        "mean_valid_closed_days": 18.830170268175745
+      },
+      {
+        "service_type": "Graffiti removal",
+        "requests": 92903,
+        "closed": 91949,
+        "open": 904,
+        "mean_valid_closed_days": 1.1061204321497866
+      },
+      {
+        "service_type": "Street light outages",
+        "requests": 31445,
+        "closed": 30510,
+        "open": 892,
+        "mean_valid_closed_days": 7.803254499132039
+      }
+    ]
+  }
+}

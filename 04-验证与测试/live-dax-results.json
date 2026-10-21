@@ -1,0 +1,230 @@
+{
+  "verifiedAt": "2026-10-21T00:36:26.779Z",
+  "connection": "Chicago311",
+  "query": "EVALUATE ROW(\"raw_rows\",COUNTROWS(FactRequests),\"included_requests\",[Requests],\"closed_requests\",[Closed Requests],\"open_cohort_requests\",[Open Cohort Requests],\"canceled_requests\",CALCULATE([Requests],FactRequests[is_canceled]=TRUE()),\"closed_share\",[Closed Share],\"valid_closed_duration\",[Valid Closed Requests],\"median_closed_days\",[Median Closed Days],\"p90_closed_days\",[P90 Closed Days],\"median_open_age_days\",[Median Open Age Days],\"open_over_90\",[Open Over 90 Days],\"open_over_90_share\",[Open Over 90 Share],\"closed_invalid_or_missing_date\",[Invalid Closed Dates])",
+  "totals": {
+    "message": "DAX query executed successfully, returned 1 rows in 163ms",
+    "operation": "Execute",
+    "data": {
+      "rowCount": 1,
+      "isTruncated": false,
+      "columns": [
+        {
+          "name": "[raw_rows]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 0
+        },
+        {
+          "name": "[included_requests]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 1
+        },
+        {
+          "name": "[closed_requests]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 2
+        },
+        {
+          "name": "[open_cohort_requests]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 3
+        },
+        {
+          "name": "[canceled_requests]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 4
+        },
+        {
+          "name": "[closed_share]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 5
+        },
+        {
+          "name": "[valid_closed_duration]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 6
+        },
+        {
+          "name": "[median_closed_days]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 7
+        },
+        {
+          "name": "[p90_closed_days]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 8
+        },
+        {
+          "name": "[median_open_age_days]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 9
+        },
+        {
+          "name": "[open_over_90]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 10
+        },
+        {
+          "name": "[open_over_90_share]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 11
+        },
+        {
+          "name": "[closed_invalid_or_missing_date]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 12
+        }
+      ],
+      "rows": [
+        {
+          "[raw_rows]": 192857,
+          "[included_requests]": 161706,
+          "[closed_requests]": 156576,
+          "[open_cohort_requests]": 5030,
+          "[canceled_requests]": 100,
+          "[closed_share]": 0.96827575971207,
+          "[valid_closed_duration]": 156576,
+          "[median_closed_days]": 0.9111400462962963,
+          "[p90_closed_days]": 12.76808449074074,
+          "[median_open_age_days]": 97.40820565545138,
+          "[open_over_90]": 2661,
+          "[open_over_90_share]": 0.5290258449304175,
+          "[closed_invalid_or_missing_date]": 0
+        }
+      ],
+      "executionTimeMs": 163
+    }
+  },
+  "services": {
+    "message": "DAX query executed successfully, returned 3 rows in 135ms",
+    "operation": "Execute",
+    "data": {
+      "rowCount": 3,
+      "isTruncated": false,
+      "columns": [
+        {
+          "name": "DimService[service_type]",
+          "dataType": "String",
+          "isNullable": true,
+          "ordinal": 0
+        },
+        {
+          "name": "[Requests]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 1
+        },
+        {
+          "name": "[Closed]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 2
+        },
+        {
+          "name": "[Open]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 3
+        },
+        {
+          "name": "[Median]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 4
+        },
+        {
+          "name": "[P90]",
+          "dataType": "Double",
+          "isNullable": true,
+          "ordinal": 5
+        }
+      ],
+      "rows": [
+        {
+          "DimService[service_type]": "Graffiti removal",
+          "[Requests]": 92903,
+          "[Closed]": 91949,
+          "[Open]": 904,
+          "[Median]": 0.4810300925925926,
+          "[P90]": 2.4234513888888833
+        },
+        {
+          "DimService[service_type]": "Street light outages",
+          "[Requests]": 31445,
+          "[Closed]": 30510,
+          "[Open]": 892,
+          "[Median]": 2.5745659722222225,
+          "[P90]": 15.501025462962964
+        },
+        {
+          "DimService[service_type]": "Street potholes",
+          "[Requests]": 37358,
+          "[Closed]": 34117,
+          "[Open]": 3234,
+          "[Median]": 6.530613425925926,
+          "[P90]": 53.20548611111122
+        }
+      ],
+      "executionTimeMs": 135
+    }
+  },
+  "age": {
+    "message": "DAX query executed successfully, returned 3 rows in 16ms",
+    "operation": "Execute",
+    "data": {
+      "rowCount": 3,
+      "isTruncated": false,
+      "columns": [
+        {
+          "name": "FactRequests[age_band]",
+          "dataType": "String",
+          "isNullable": true,
+          "ordinal": 0
+        },
+        {
+          "name": "FactRequests[Age band order]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 1
+        },
+        {
+          "name": "[Open]",
+          "dataType": "Int64",
+          "isNullable": true,
+          "ordinal": 2
+        }
+      ],
+      "rows": [
+        {
+          "FactRequests[age_band]": "8–30 days",
+          "FactRequests[Age band order]": 2,
+          "[Open]": 528
+        },
+        {
+          "FactRequests[age_band]": "31–90 days",
+          "FactRequests[Age band order]": 3,
+          "[Open]": 1841
+        },
+        {
+          "FactRequests[age_band]": "Over 90 days",
+          "FactRequests[Age band order]": 4,
+          "[Open]": 2661
+        }
+      ],
+      "executionTimeMs": 16
+    }
+  }
+}

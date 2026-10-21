@@ -1,0 +1,194 @@
+{
+  "verified_at": "2026-10-21T00:36:26.779Z",
+  "checks": [
+    {
+      "metric": "raw_rows",
+      "power_bi": 192857,
+      "python": 192857.0,
+      "passed": true
+    },
+    {
+      "metric": "included_requests",
+      "power_bi": 161706,
+      "python": 161706.0,
+      "passed": true
+    },
+    {
+      "metric": "closed_requests",
+      "power_bi": 156576,
+      "python": 156576.0,
+      "passed": true
+    },
+    {
+      "metric": "open_cohort_requests",
+      "power_bi": 5030,
+      "python": 5030.0,
+      "passed": true
+    },
+    {
+      "metric": "canceled_requests",
+      "power_bi": 100,
+      "python": 100.0,
+      "passed": true
+    },
+    {
+      "metric": "closed_share",
+      "power_bi": 0.96827575971207,
+      "python": 0.96827575971207,
+      "passed": true
+    },
+    {
+      "metric": "valid_closed_duration",
+      "power_bi": 156576,
+      "python": 156576.0,
+      "passed": true
+    },
+    {
+      "metric": "median_closed_days",
+      "power_bi": 0.9111400462962963,
+      "python": 0.9111400462962964,
+      "passed": true
+    },
+    {
+      "metric": "p90_closed_days",
+      "power_bi": 12.76808449074074,
+      "python": 12.76808449074074,
+      "passed": true
+    },
+    {
+      "metric": "median_open_age_days",
+      "power_bi": 97.40820565545138,
+      "python": 97.40820565545138,
+      "passed": true
+    },
+    {
+      "metric": "open_over_90",
+      "power_bi": 2661,
+      "python": 2661.0,
+      "passed": true
+    },
+    {
+      "metric": "open_over_90_share",
+      "power_bi": 0.5290258449304175,
+      "python": 0.5290258449304175,
+      "passed": true
+    },
+    {
+      "metric": "closed_invalid_or_missing_date",
+      "power_bi": 0,
+      "python": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "Graffiti removal/Requests",
+      "power_bi": 92903,
+      "python": 92903.0,
+      "passed": true
+    },
+    {
+      "metric": "Graffiti removal/Closed",
+      "power_bi": 91949,
+      "python": 91949.0,
+      "passed": true
+    },
+    {
+      "metric": "Graffiti removal/Open",
+      "power_bi": 904,
+      "python": 904.0,
+      "passed": true
+    },
+    {
+      "metric": "Graffiti removal/Median",
+      "power_bi": 0.4810300925925926,
+      "python": 0.4810300925925926,
+      "passed": true
+    },
+    {
+      "metric": "Graffiti removal/P90",
+      "power_bi": 2.4234513888888833,
+      "python": 2.4234513888888833,
+      "passed": true
+    },
+    {
+      "metric": "Street light outages/Requests",
+      "power_bi": 31445,
+      "python": 31445.0,
+      "passed": true
+    },
+    {
+      "metric": "Street light outages/Closed",
+      "power_bi": 30510,
+      "python": 30510.0,
+      "passed": true
+    },
+    {
+      "metric": "Street light outages/Open",
+      "power_bi": 892,
+      "python": 892.0,
+      "passed": true
+    },
+    {
+      "metric": "Street light outages/Median",
+      "power_bi": 2.5745659722222225,
+      "python": 2.5745659722222225,
+      "passed": true
+    },
+    {
+      "metric": "Street light outages/P90",
+      "power_bi": 15.501025462962964,
+      "python": 15.501025462962964,
+      "passed": true
+    },
+    {
+      "metric": "Street potholes/Requests",
+      "power_bi": 37358,
+      "python": 37358.0,
+      "passed": true
+    },
+    {
+      "metric": "Street potholes/Closed",
+      "power_bi": 34117,
+      "python": 34117.0,
+      "passed": true
+    },
+    {
+      "metric": "Street potholes/Open",
+      "power_bi": 3234,
+      "python": 3234.0,
+      "passed": true
+    },
+    {
+      "metric": "Street potholes/Median",
+      "power_bi": 6.530613425925926,
+      "python": 6.530613425925926,
+      "passed": true
+    },
+    {
+      "metric": "Street potholes/P90",
+      "power_bi": 53.20548611111122,
+      "python": 53.20548611111121,
+      "passed": true
+    },
+    {
+      "metric": "Age/8\u201330 days",
+      "power_bi": 528,
+      "python": 528.0,
+      "passed": true
+    },
+    {
+      "metric": "Age/31\u201390 days",
+      "power_bi": 1841,
+      "python": 1841.0,
+      "passed": true
+    },
+    {
+      "metric": "Age/Over 90 days",
+      "power_bi": 2661,
+      "python": 2661.0,
+      "passed": true
+    }
+  ],
+  "check_count": 31,
+  "all_passed": true,
+  "method": "Actual live MCP DAX results independently compared with CSV data in pandas; continuous linear P90; tolerance 1e-8 days."
+}

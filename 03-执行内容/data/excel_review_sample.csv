@@ -1,0 +1,301 @@
+sr_number,service_type,status,created_day,closed_day,created_month,created_week,community_area,ward,duplicate,legacy_record,is_included,status_closed,valid_closed,is_open,is_canceled,resolution_days,open_age_days,age_band,origin,owner_department
+SR26-00243564,Graffiti removal,Completed,2026-02-09,2026-02-09,2026-02,2026-02-09,24,1,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-00753937,Graffiti removal,Completed,2026-04-24,2026-04-28,2026-04,2026-04-20,67,15,False,False,True,True,True,False,False,4.014861111111111,,Closed,Phone Call,Streets and Sanitation
+SR26-00551995,Graffiti removal,Completed,2026-03-27,2026-03-27,2026-03,2026-03-23,22,1,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR26-01208093,Street light outages,Completed,2026-06-21,2026-06-23,2026-06,2026-06-15,43,5,False,False,True,True,True,False,False,2.3580092592592594,,Closed,Internet,CDOT - Department of Transportation
+SR26-00319584,Graffiti removal,Completed,2026-02-21,2026-02-23,2026-02,2026-02-16,7,43,False,False,True,True,True,False,False,1.8975925925925925,,Closed,Mobile Device,Streets and Sanitation
+SR26-01718247,Graffiti removal,Completed,2026-08-24,2026-08-24,2026-08,2026-08-24,30,22,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01208223,Graffiti removal,Completed,2026-06-21,2026-06-22,2026-06,2026-06-15,6,44,False,False,True,True,True,False,False,1.1973726851851851,,Closed,Mobile Device,Streets and Sanitation
+SR25-02097137,Graffiti removal,Completed,2025-11-13,2025-11-13,2025-11,2025-11-10,30,22,False,False,True,True,True,False,False,0.0001273148148148148,,Closed,Mass Entry,Streets and Sanitation
+SR25-01857412,Graffiti removal,Completed,2025-10-09,2025-10-09,2025-10,2025-10-06,32,42,False,False,True,True,True,False,False,0.00015046296296296297,,Closed,Mass Entry,Streets and Sanitation
+SR26-01500831,Graffiti removal,Completed,2026-07-28,2026-07-28,2026-07,2026-07-27,24,26,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01932277,Street potholes,Open,2026-09-22,,2026-09,2026-09-21,76,41,False,False,True,False,False,True,False,,28.359004266562497,8–30 days,Mobile Device,CDOT - Department of Transportation
+SR26-00655743,Street light outages,Completed,2026-04-11,2026-04-13,2026-04,2026-04-06,23,37,False,False,True,True,True,False,False,2.2605439814814816,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02159050,Graffiti removal,Completed,2025-11-23,2025-11-24,2025-11,2025-11-17,15,45,False,False,True,True,True,False,False,0.621875,,Closed,Mobile Device,Streets and Sanitation
+SR26-00411369,Graffiti removal,Completed,2026-03-07,2026-03-09,2026-03,2026-03-02,7,43,False,False,True,True,True,False,False,1.6768518518518518,,Closed,Mobile Device,Streets and Sanitation
+SR26-01549649,Graffiti removal,Completed,2026-08-03,2026-08-03,2026-08,2026-08-03,4,47,False,False,True,True,True,False,False,4.6296296296296294e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00444920,Graffiti removal,Completed,2026-03-12,2026-03-13,2026-03,2026-03-09,15,41,False,False,True,True,True,False,False,0.7470949074074074,,Closed,Mobile Device,Streets and Sanitation
+SR26-00851655,Graffiti removal,Completed,2026-05-07,2026-05-08,2026-05,2026-05-04,27,28,False,False,True,True,True,False,False,1.1100694444444446,,Closed,Mobile Device,Streets and Sanitation
+SR26-01790751,Graffiti removal,Completed,2026-09-02,2026-09-02,2026-09,2026-08-31,15,30,False,False,True,True,True,False,False,9.259259259259259e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00389657,Graffiti removal,Completed,2026-03-04,2026-03-05,2026-03,2026-03-02,1,49,False,False,True,True,True,False,False,0.6308680555555556,,Closed,Phone Call,Streets and Sanitation
+SR26-00674531,Street potholes,Completed,2026-04-13,2026-04-20,2026-04,2026-04-13,8,42,False,False,True,True,True,False,False,6.353634259259259,,Closed,Internet,CDOT - Department of Transportation
+SR25-02262215,Graffiti removal,Completed,2025-12-09,2025-12-09,2025-12,2025-12-08,70,18,False,False,True,True,True,False,False,0.00018518518518518518,,Closed,Mass Entry,Streets and Sanitation
+SR26-00631647,Graffiti removal,Completed,2026-04-08,2026-04-08,2026-04,2026-04-06,59,12,False,False,True,True,True,False,False,0.04283564814814815,,Closed,Mobile Device,Streets and Sanitation
+SR25-02063977,Street light outages,Completed,2025-11-08,2025-11-12,2025-11,2025-11-03,15,38,True,False,False,True,True,False,False,3.7293055555555554,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00556478,Street potholes,Completed,2026-03-28,2026-04-25,2026-03,2026-03-23,14,33,False,False,True,True,True,False,False,27.80414351851852,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01080911,Street potholes,Completed,2026-06-08,2026-06-08,2026-06,2026-06-08,32,42,False,False,True,True,True,False,False,0.0006944444444444445,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00891107,Graffiti removal,Completed,2026-05-12,2026-05-12,2026-05,2026-05-11,57,14,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR25-02351623,Graffiti removal,Completed,2025-12-24,2025-12-24,2025-12,2025-12-22,24,27,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR25-02028682,Street light outages,Completed,2025-11-03,2025-11-04,2025-11,2025-11-03,6,44,False,False,True,True,True,False,False,0.7192361111111111,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02247852,Street light outages,Completed,2025-12-08,2025-12-18,2025-12,2025-12-08,8,2,False,False,True,True,True,False,False,10.590497685185186,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00723187,Street potholes,Completed,2026-04-20,2026-04-24,2026-04,2026-04-20,7,43,True,False,False,True,True,False,False,4.134039351851852,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00346864,Graffiti removal,Completed,2026-02-25,2026-02-25,2026-02,2026-02-23,1,40,False,False,True,True,True,False,False,0.00017361111111111112,,Closed,Mass Entry,Streets and Sanitation
+SR26-01787451,Street potholes,Completed,2026-09-02,2026-09-26,2026-09,2026-08-31,19,31,True,False,False,True,True,False,False,24.134351851851854,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01668158,Street potholes,Open,2026-08-18,,2026-08,2026-08-17,69,6,False,False,True,False,False,True,False,,63.191701025821764,31–90 days,Internet,CDOT - Department of Transportation
+SR26-01939411,Street light outages,Completed,2026-09-23,2026-09-23,2026-09,2026-09-21,7,43,True,False,False,True,True,False,False,0.7225231481481481,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02317220,Street potholes,Completed,2025-12-18,2025-12-18,2025-12,2025-12-15,21,35,False,False,True,True,True,False,False,0.000462962962962963,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00197536,Graffiti removal,Completed,2026-02-02,2026-02-03,2026-02,2026-02-02,29,24,False,False,True,True,True,False,False,0.8340856481481481,,Closed,Internet,Streets and Sanitation
+SR26-01847781,Graffiti removal,Completed,2026-09-10,2026-09-10,2026-09,2026-09-07,24,1,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01520661,Street potholes,Completed,2026-07-30,2026-08-03,2026-07,2026-07-27,6,47,False,False,True,True,True,False,False,3.693865740740741,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01698852,Graffiti removal,Open,2026-08-21,,2026-08,2026-08-17,13,39,True,False,False,False,False,True,False,,59.98933991471065,31–90 days,Internet,Streets and Sanitation
+SR26-00106705,Street potholes,Completed,2026-01-17,2026-02-03,2026-01,2026-01-12,7,43,False,False,True,True,True,False,False,16.58685185185185,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02334991,Street light outages,Completed,2025-12-22,2025-12-23,2025-12,2025-12-22,9,41,False,False,True,True,True,False,False,1.523414351851852,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01297455,Street potholes,Completed,2026-07-01,2026-08-22,2026-07,2026-06-29,16,30,True,False,False,True,True,False,False,51.661261574074075,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02161122,Graffiti removal,Completed,2025-11-24,2025-11-24,2025-11,2025-11-24,24,32,True,False,False,True,True,False,False,0.06943287037037037,,Closed,Internet,Streets and Sanitation
+SR26-01698003,Graffiti removal,Completed,2026-08-21,2026-08-21,2026-08,2026-08-17,28,34,False,False,True,True,True,False,False,9.259259259259259e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01934365,Street potholes,Open,2026-09-22,,2026-09,2026-09-21,34,11,True,False,False,False,False,True,False,,28.24472185915509,8–30 days,Mobile Device,CDOT - Department of Transportation
+SR26-00467692,Street potholes,Completed,2026-03-16,2026-03-17,2026-03,2026-03-16,30,12,False,False,True,True,True,False,False,1.2949652777777778,,Closed,Internet,CDOT - Department of Transportation
+SR26-00309710,Street light outages,Completed,2026-02-19,2026-02-20,2026-02,2026-02-16,31,25,False,False,True,True,True,False,False,0.738900462962963,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00672034,Graffiti removal,Completed,2026-04-13,2026-04-14,2026-04,2026-04-13,32,4,False,False,True,True,True,False,False,0.6344907407407407,,Closed,Internet,Streets and Sanitation
+SR26-01699023,Graffiti removal,Completed,2026-08-21,2026-08-21,2026-08,2026-08-17,24,1,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-00708767,Graffiti removal,Completed,2026-04-17,2026-04-17,2026-04,2026-04-13,60,11,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00782565,Graffiti removal,Completed,2026-04-28,2026-04-28,2026-04,2026-04-27,15,45,False,False,True,True,True,False,False,0.20760416666666667,,Closed,Internet,Streets and Sanitation
+SR26-00923347,Street potholes,Completed,2026-05-17,2026-05-21,2026-05,2026-05-11,10,41,True,False,False,True,True,False,False,3.94318287037037,,Closed,Internet,CDOT - Department of Transportation
+SR25-01962315,Street potholes,Completed,2025-10-24,2025-10-31,2025-10,2025-10-20,4,39,True,False,False,True,True,False,False,6.65568287037037,,Closed,Internet,CDOT - Department of Transportation
+SR25-01877321,Graffiti removal,Completed,2025-10-12,2025-10-12,2025-10,2025-10-06,8,42,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-00855107,Street potholes,Open,2026-05-07,,2026-05,2026-05-04,76,41,False,False,True,False,False,True,False,,166.2293630628588,Over 90 days,Internet,CDOT - Department of Transportation
+SR26-00211633,Street potholes,Completed,2026-02-04,2026-02-09,2026-02,2026-02-02,22,32,False,False,True,True,True,False,False,4.89582175925926,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-01886612,Street light outages,Completed,2025-10-14,2025-10-14,2025-10,2025-10-13,15,38,False,False,True,True,True,False,False,0.5194907407407408,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00050625,Street potholes,Completed,2026-01-09,2026-01-13,2026-01,2026-01-05,43,7,False,False,True,True,True,False,False,4.087511574074074,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-01955877,Graffiti removal,Completed,2025-10-23,2025-10-24,2025-10,2025-10-20,6,44,False,False,True,True,True,False,False,0.6807175925925926,,Closed,Mobile Device,Streets and Sanitation
+SR26-00978255,Street potholes,Completed,2026-05-25,2026-10-03,2026-05,2026-05-25,15,38,True,False,False,True,True,False,False,131.07199074074074,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02320409,Street potholes,Completed,2025-12-18,2025-12-31,2025-12,2025-12-15,43,5,False,False,True,True,True,False,False,12.475011574074074,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01180071,Street potholes,Completed,2026-06-17,2026-07-08,2026-06,2026-06-15,31,28,False,False,True,True,True,False,False,20.821585648148147,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01512875,Street light outages,Completed,2026-07-30,2026-07-30,2026-07,2026-07-27,12,45,False,False,True,True,True,False,False,0.49688657407407405,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00023616,Graffiti removal,Completed,2026-01-05,2026-01-05,2026-01,2026-01-05,31,28,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR26-00991146,Graffiti removal,Completed,2026-05-26,2026-05-27,2026-05,2026-05-25,6,44,False,False,True,True,True,False,False,0.48443287037037036,,Closed,Mobile Device,Streets and Sanitation
+SR25-02150104,Graffiti removal,Completed,2025-11-21,2025-11-21,2025-11,2025-11-17,32,42,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-00084225,Street potholes,Completed,2026-01-14,2026-01-14,2026-01,2026-01-12,53,9,False,False,True,True,True,False,False,0.0011689814814814816,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00109134,Graffiti removal,Completed,2026-01-18,2026-01-20,2026-01,2026-01-12,29,24,False,False,True,True,True,False,False,1.912962962962963,,Closed,Phone Call,Streets and Sanitation
+SR26-00861278,Street potholes,Completed,2026-05-08,2026-06-09,2026-05,2026-05-04,65,23,True,False,False,True,True,False,False,31.927835648148147,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR25-01806183,Street potholes,Completed,2025-10-02,2025-11-24,2025-10,2025-09-29,20,35,False,False,True,True,True,False,False,53.270833333333336,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-01814998,Graffiti removal,Completed,2025-10-03,2025-10-06,2025-10,2025-09-29,68,16,False,False,True,True,True,False,False,3.13875,,Closed,Internet,Streets and Sanitation
+SR25-02282673,Graffiti removal,Completed,2025-12-12,2025-12-12,2025-12,2025-12-08,24,1,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR26-00070053,Street potholes,Completed,2026-01-12,2026-01-12,2026-01,2026-01-12,3,46,False,False,True,True,True,False,False,0.0015162037037037036,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00568109,Graffiti removal,Completed,2026-03-30,2026-03-30,2026-03,2026-03-30,58,12,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00882642,Graffiti removal,Completed,2026-05-11,2026-05-11,2026-05,2026-05-11,28,27,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01725597,Graffiti removal,Completed,2026-08-25,2026-08-26,2026-08,2026-08-24,60,11,False,False,True,True,True,False,False,0.8558449074074074,,Closed,Internet,Streets and Sanitation
+SR26-02000815,Graffiti removal,Completed,2026-09-30,2026-09-30,2026-09,2026-09-28,30,24,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00995509,Graffiti removal,Completed,2026-05-27,2026-05-28,2026-05,2026-05-25,15,45,True,False,False,True,True,False,False,0.8272800925925926,,Closed,Mobile Device,Streets and Sanitation
+SR26-01477891,Graffiti removal,Completed,2026-07-26,2026-07-28,2026-07,2026-07-20,24,1,False,False,True,True,True,False,False,1.9970138888888889,,Closed,Internet,Streets and Sanitation
+SR26-00061194,Street potholes,Completed,2026-01-11,2026-01-15,2026-01,2026-01-05,35,3,False,False,True,True,True,False,False,4.175659722222222,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02316041,Graffiti removal,Completed,2025-12-18,2025-12-18,2025-12,2025-12-15,31,25,False,False,True,True,True,False,False,0.0002199074074074074,,Closed,Mass Entry,Streets and Sanitation
+SR26-00560699,Street potholes,Completed,2026-03-29,2026-03-30,2026-03,2026-03-23,77,48,True,False,False,True,True,False,False,0.7749652777777778,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01394866,Street potholes,Open,2026-07-14,,2026-07,2026-07-13,20,26,True,False,False,False,False,True,False,,97.92689778508101,Over 90 days,Mobile Device,CDOT - Department of Transportation
+SR25-01926623,Graffiti removal,Completed,2025-10-19,2025-10-21,2025-10,2025-10-13,47,8,False,False,True,True,True,False,False,1.5796527777777778,,Closed,Phone Call,Streets and Sanitation
+SR26-00702135,Graffiti removal,Completed,2026-04-17,2026-04-17,2026-04,2026-04-13,22,1,False,False,True,True,True,False,False,0.15837962962962962,,Closed,Internet,Streets and Sanitation
+SR26-00533977,Street potholes,Completed,2026-03-25,2026-03-25,2026-03,2026-03-23,70,18,False,False,True,True,True,False,False,0.0008217592592592593,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00286386,Street potholes,Completed,2026-02-16,2026-02-23,2026-02,2026-02-16,8,2,False,False,True,True,True,False,False,6.443969907407407,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01968226,Street potholes,Completed,2026-09-26,2026-09-26,2026-09,2026-09-21,16,33,False,False,True,True,True,False,False,0.0004398148148148148,,Closed,Generated In House,CDOT - Department of Transportation
+SR26-01300626,Graffiti removal,Completed,2026-07-02,2026-07-02,2026-07,2026-06-29,22,35,False,False,True,True,True,False,False,0.01625,,Closed,Internet,Streets and Sanitation
+SR25-02117382,Graffiti removal,Completed,2025-11-17,2025-11-18,2025-11,2025-11-17,51,10,False,False,True,True,True,False,False,0.8919791666666667,,Closed,Phone Call,Streets and Sanitation
+SR26-00652985,Graffiti removal,Completed,2026-04-10,2026-04-10,2026-04,2026-04-06,4,47,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00240190,Graffiti removal,Completed,2026-02-09,2026-02-12,2026-02,2026-02-09,0,0,False,False,True,True,True,False,False,2.6984143518518517,,Closed,Phone Call,Streets and Sanitation
+SR25-01850115,Graffiti removal,Completed,2025-10-08,2025-10-09,2025-10,2025-10-06,77,48,False,False,True,True,True,False,False,1.0355439814814815,,Closed,Mobile Device,Streets and Sanitation
+SR25-01900670,Graffiti removal,Completed,2025-10-15,2025-10-15,2025-10,2025-10-13,22,35,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR26-01964053,Graffiti removal,Completed,2026-09-25,2026-09-28,2026-09,2026-09-21,32,34,False,False,True,True,True,False,False,2.762534722222222,,Closed,Internet,Streets and Sanitation
+SR26-00608371,Graffiti removal,Completed,2026-04-05,2026-04-06,2026-04,2026-03-30,24,27,False,False,True,True,True,False,False,1.0287037037037037,,Closed,Internet,Streets and Sanitation
+SR25-01916981,Graffiti removal,Completed,2025-10-17,2025-10-17,2025-10,2025-10-13,32,4,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01100023,Street potholes,Completed,2026-06-10,2026-07-13,2026-06,2026-06-08,72,19,False,False,True,True,True,False,False,33.09971064814815,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR26-00080805,Graffiti removal,Completed,2026-01-13,2026-01-13,2026-01,2026-01-12,32,4,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-00068020,Street potholes,Completed,2026-01-12,2026-01-22,2026-01,2026-01-12,34,11,False,False,True,True,True,False,False,9.946817129629629,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01804536,Graffiti removal,Completed,2026-09-04,2026-09-08,2026-09,2026-08-31,19,36,False,False,True,True,True,False,False,3.7273958333333335,,Closed,Phone Call,Streets and Sanitation
+SR26-01502126,Street light outages,Completed,2026-07-28,2026-08-13,2026-07,2026-07-27,7,43,False,False,True,True,True,False,False,15.598032407407407,,Closed,Internet,CDOT - Department of Transportation
+SR26-00615781,Street potholes,Completed,2026-04-06,2026-05-09,2026-04,2026-04-06,17,38,False,False,True,True,True,False,False,33.43491898148148,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR26-00737228,Street potholes,Completed,2026-04-22,2026-04-25,2026-04,2026-04-20,4,47,True,False,False,True,True,False,False,3.317511574074074,,Closed,Internet,CDOT - Department of Transportation
+SR26-00912197,Graffiti removal,Completed,2026-05-15,2026-05-15,2026-05,2026-05-11,27,28,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR25-02222801,Graffiti removal,Completed,2025-12-03,2025-12-04,2025-12,2025-12-01,30,22,False,False,True,True,True,False,False,0.48431712962962964,,Closed,Internet,Streets and Sanitation
+SR25-02019574,Graffiti removal,Completed,2025-11-02,2025-11-03,2025-11,2025-10-27,66,16,False,False,True,True,True,False,False,0.8194907407407407,,Closed,Internet,Streets and Sanitation
+SR26-01436002,Graffiti removal,Completed,2026-07-20,2026-07-22,2026-07,2026-07-20,8,2,False,False,True,True,True,False,False,1.7903703703703704,,Closed,Alderman's Office,Streets and Sanitation
+SR26-00711647,Street potholes,Completed,2026-04-18,2026-04-20,2026-04,2026-04-13,46,10,False,False,True,True,True,False,False,2.0187037037037037,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00554566,Street potholes,Completed,2026-03-28,2026-04-09,2026-03,2026-03-23,7,32,True,False,False,True,True,False,False,11.986898148148148,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00513154,Street potholes,Completed,2026-03-22,2026-04-28,2026-03,2026-03-16,25,28,True,False,False,True,True,False,False,36.66525462962963,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00959735,Graffiti removal,Completed,2026-05-22,2026-05-26,2026-05,2026-05-18,25,37,False,False,True,True,True,False,False,3.95099537037037,,Closed,Mobile Device,Streets and Sanitation
+SR26-00637906,Street light outages,Completed,2026-04-08,2026-04-14,2026-04,2026-04-06,9,41,False,False,True,True,True,False,False,5.532673611111111,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02012145,Graffiti removal,Completed,2025-10-31,2025-10-31,2025-10,2025-10-27,21,35,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01934131,Street light outages,Completed,2026-09-22,2026-09-29,2026-09,2026-09-21,51,10,False,False,True,True,True,False,False,7.0320833333333335,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR25-02051702,Graffiti removal,Completed,2025-11-06,2025-11-06,2025-11,2025-11-03,66,16,False,False,True,True,True,False,False,0.0001273148148148148,,Closed,Mass Entry,Streets and Sanitation
+SR26-00480646,Graffiti removal,Completed,2026-03-17,2026-03-18,2026-03,2026-03-16,60,11,False,False,True,True,True,False,False,0.7055324074074074,,Closed,Mobile Device,Streets and Sanitation
+SR25-02270853,Graffiti removal,Completed,2025-12-10,2025-12-10,2025-12,2025-12-08,28,27,False,False,True,True,True,False,False,0.0001273148148148148,,Closed,Mass Entry,Streets and Sanitation
+SR26-00938140,Street light outages,Completed,2026-05-19,2026-05-21,2026-05,2026-05-18,31,25,False,False,True,True,True,False,False,2.0354513888888888,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00469543,Street potholes,Completed,2026-03-16,2026-03-20,2026-03,2026-03-16,59,11,False,False,True,True,True,False,False,4.060185185185185,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01733922,Graffiti removal,Completed,2026-08-26,2026-08-27,2026-08,2026-08-24,2,40,False,False,True,True,True,False,False,0.6726041666666667,,Closed,Phone Call,Streets and Sanitation
+SR25-02347338,Graffiti removal,Completed,2025-12-23,2025-12-26,2025-12,2025-12-22,3,46,False,False,True,True,True,False,False,2.5772453703703704,,Closed,Mobile Device,Streets and Sanitation
+SR25-02014600,Graffiti removal,Completed,2025-11-01,2025-11-03,2025-11,2025-10-27,31,25,False,False,True,True,True,False,False,1.9292939814814816,,Closed,Phone Call,Streets and Sanitation
+SR25-01843688,Street potholes,Completed,2025-10-07,2025-10-09,2025-10,2025-10-06,70,18,False,False,True,True,True,False,False,1.949814814814815,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00270160,Street potholes,Completed,2026-02-13,2026-05-16,2026-02,2026-02-09,23,26,False,False,True,True,True,False,False,91.83444444444444,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00568897,Street potholes,Completed,2026-03-30,2026-04-16,2026-03,2026-03-30,22,32,True,False,False,True,True,False,False,16.562569444444446,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00706431,Street potholes,Completed,2026-04-17,2026-04-28,2026-04,2026-04-13,3,46,True,False,False,True,True,False,False,10.92363425925926,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00807312,Graffiti removal,Completed,2026-04-30,2026-04-30,2026-04,2026-04-27,57,14,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00828596,Street potholes,Completed,2026-05-04,2026-06-16,2026-05,2026-05-04,41,4,True,False,False,True,True,False,False,43.217141203703704,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00136720,Graffiti removal,Completed,2026-01-22,2026-01-22,2026-01,2026-01-19,58,12,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-01784067,Street light outages,Completed,2026-09-02,2026-09-02,2026-09,2026-08-31,26,24,False,False,True,True,True,False,False,0.5404282407407407,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00673991,Street potholes,Completed,2026-04-13,2026-05-01,2026-04,2026-04-13,24,36,True,False,False,True,True,False,False,17.62765046296296,,Closed,Internet,CDOT - Department of Transportation
+SR26-00985124,Graffiti removal,Completed,2026-05-26,2026-05-26,2026-05,2026-05-25,5,32,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00443799,Street potholes,Completed,2026-03-12,2026-05-11,2026-03,2026-03-09,10,41,False,False,True,True,True,False,False,59.867407407407406,,Closed,Internet,CDOT - Department of Transportation
+SR26-00046471,Graffiti removal,Completed,2026-01-08,2026-01-08,2026-01,2026-01-05,16,33,False,False,True,True,True,False,False,0.00015046296296296297,,Closed,Mass Entry,Streets and Sanitation
+SR25-02088031,Graffiti removal,Completed,2025-11-12,2025-11-12,2025-11,2025-11-10,16,30,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01348367,Graffiti removal,Completed,2026-07-08,2026-07-09,2026-07,2026-07-06,63,15,False,False,True,True,True,False,False,0.7414583333333333,,Closed,Internet,Streets and Sanitation
+SR25-02326255,Graffiti removal,Completed,2025-12-19,2025-12-22,2025-12,2025-12-15,22,32,False,False,True,True,True,False,False,2.5269328703703704,,Closed,Phone Call,Streets and Sanitation
+SR26-01453717,Street potholes,Completed,2026-07-22,2026-08-22,2026-07,2026-07-20,30,22,True,False,False,True,True,False,False,30.864976851851853,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01722958,Street potholes,Completed,2026-08-25,2026-08-25,2026-08,2026-08-24,19,30,False,False,True,True,True,False,False,0.0005439814814814814,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01350609,Graffiti removal,Completed,2026-07-08,2026-07-08,2026-07,2026-07-06,8,42,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01588074,Graffiti removal,Completed,2026-08-09,2026-08-10,2026-08,2026-08-03,5,47,False,False,True,True,True,False,False,1.155150462962963,,Closed,Internet,Streets and Sanitation
+SR26-00290014,Street potholes,Completed,2026-02-17,2026-02-19,2026-02,2026-02-16,45,8,False,False,True,True,True,False,False,2.0294328703703703,,Closed,Generated In House,CDOT - Department of Transportation
+SR26-00698987,Graffiti removal,Completed,2026-04-16,2026-04-16,2026-04,2026-04-13,26,28,False,False,True,True,True,False,False,0.00018518518518518518,,Closed,Mass Entry,Streets and Sanitation
+SR26-01946797,Graffiti removal,Completed,2026-09-23,2026-09-23,2026-09,2026-09-21,20,26,False,False,True,True,True,False,False,8.101851851851852e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00305043,Graffiti removal,Completed,2026-02-19,2026-02-23,2026-02,2026-02-16,31,25,False,False,True,True,True,False,False,3.8766435185185184,,Closed,Internet,Streets and Sanitation
+SR26-00760516,Graffiti removal,Completed,2026-04-24,2026-04-24,2026-04,2026-04-20,31,12,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR25-02262549,Graffiti removal,Completed,2025-12-09,2025-12-09,2025-12,2025-12-08,21,30,False,False,True,True,True,False,False,0.00016203703703703703,,Closed,Mass Entry,Streets and Sanitation
+SR26-00597897,Street potholes,Open,2026-04-03,,2026-04,2026-03-30,65,13,True,False,False,False,False,True,False,,200.29715241471064,Over 90 days,Mobile Device,CDOT - Department of Transportation
+SR25-02251703,Street potholes,Completed,2025-12-08,2025-12-11,2025-12,2025-12-08,59,11,False,False,True,True,True,False,False,3.056701388888889,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR26-00210133,Graffiti removal,Completed,2026-02-04,2026-02-05,2026-02,2026-02-02,77,48,False,False,True,True,True,False,False,1.1431481481481482,,Closed,Internet,Streets and Sanitation
+SR26-01948548,Graffiti removal,Completed,2026-09-24,2026-09-24,2026-09,2026-09-21,1,49,False,False,True,True,True,False,False,0.19179398148148147,,Closed,Mobile Device,Streets and Sanitation
+SR26-01641759,Graffiti removal,Completed,2026-08-14,2026-08-14,2026-08,2026-08-10,59,12,False,False,True,True,True,False,False,4.6296296296296294e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00397653,Street light outages,Completed,2026-03-05,2026-03-06,2026-03,2026-03-02,48,8,False,False,True,True,True,False,False,0.8742824074074074,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00816617,Street potholes,Completed,2026-05-02,2026-06-23,2026-05,2026-04-27,6,44,False,False,True,True,True,False,False,52.07734953703704,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01616751,Graffiti removal,Completed,2026-08-12,2026-08-13,2026-08,2026-08-10,3,48,False,False,True,True,True,False,False,1.1749652777777777,,Closed,Mobile Device,Streets and Sanitation
+SR25-01824646,Street light outages,Completed,2025-10-04,2025-10-06,2025-10,2025-09-29,49,9,False,False,True,True,True,False,False,1.9540277777777777,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02143373,Graffiti removal,Completed,2025-11-20,2025-11-20,2025-11,2025-11-17,6,46,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01468049,Street potholes,Completed,2026-07-24,2026-07-31,2026-07,2026-07-20,15,45,True,False,False,True,True,False,False,6.769976851851852,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00072871,Street potholes,Completed,2026-01-12,2026-01-15,2026-01,2026-01-12,33,3,False,False,True,True,True,False,False,2.696099537037037,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02346391,Graffiti removal,Completed,2025-12-23,2025-12-23,2025-12,2025-12-22,5,32,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR25-02037048,Graffiti removal,Completed,2025-11-04,2025-11-05,2025-11,2025-11-03,66,16,True,False,False,True,True,False,False,0.5471064814814814,,Closed,Internet,Streets and Sanitation
+SR26-00785210,Street potholes,Completed,2026-04-28,2026-07-01,2026-04,2026-04-27,25,28,True,False,False,True,True,False,False,64.02060185185185,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00549287,Street potholes,Completed,2026-03-27,2026-04-06,2026-03,2026-03-23,31,25,True,False,False,True,True,False,False,9.843472222222223,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02371278,Street potholes,Completed,2025-12-29,2026-01-05,2025-12,2025-12-29,51,8,False,False,True,True,True,False,False,7.185879629629629,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01356909,Street potholes,Completed,2026-07-09,2026-07-20,2026-07,2026-07-06,22,32,False,False,True,True,True,False,False,10.63701388888889,,Closed,Internet,CDOT - Department of Transportation
+SR25-02269806,Graffiti removal,Completed,2025-12-10,2025-12-10,2025-12,2025-12-08,60,11,False,False,True,True,True,False,False,0.00019675925925925926,,Closed,Mass Entry,Streets and Sanitation
+SR25-02313577,Graffiti removal,Completed,2025-12-18,2025-12-18,2025-12,2025-12-15,31,12,False,False,True,True,True,False,False,0.2300925925925926,,Closed,Internet,Streets and Sanitation
+SR26-01439458,Graffiti removal,Completed,2026-07-20,2026-07-21,2026-07,2026-07-20,6,44,True,False,False,True,True,False,False,0.7127314814814815,,Closed,Mobile Device,Streets and Sanitation
+SR26-01945476,Graffiti removal,Completed,2026-09-23,2026-09-23,2026-09,2026-09-21,21,35,False,False,True,True,True,False,False,9.259259259259259e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00079717,Street potholes,Completed,2026-01-13,2026-01-20,2026-01,2026-01-12,1,49,True,False,False,True,True,False,False,6.944537037037037,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00192981,Graffiti removal,Completed,2026-02-01,2026-02-02,2026-02,2026-01-26,28,27,False,False,True,True,True,False,False,0.5728935185185186,,Closed,Mobile Device,Streets and Sanitation
+SR25-01947247,Graffiti removal,Completed,2025-10-22,2025-10-24,2025-10,2025-10-20,6,46,False,False,True,True,True,False,False,1.6754398148148149,,Closed,Mobile Device,Streets and Sanitation
+SR26-00226892,Street light outages,Completed,2026-02-06,2026-02-10,2026-02,2026-02-02,18,29,False,False,True,True,True,False,False,3.9378703703703706,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00241491,Graffiti removal,Completed,2026-02-09,2026-02-09,2026-02,2026-02-09,5,47,False,False,True,True,True,False,False,0.00015046296296296297,,Closed,Mass Entry,Streets and Sanitation
+SR26-01478862,Graffiti removal,Completed,2026-07-26,2026-07-27,2026-07,2026-07-20,31,25,False,False,True,True,True,False,False,0.8246875,,Closed,Phone Call,Streets and Sanitation
+SR26-01504385,Street potholes,Open,2026-07-29,,2026-07,2026-07-27,41,5,True,False,False,False,False,True,False,,83.4320366739699,31–90 days,Mobile Device,CDOT - Department of Transportation
+SR26-01083431,Graffiti removal,Completed,2026-06-08,2026-06-10,2026-06,2026-06-08,30,24,False,False,True,True,True,False,False,1.913761574074074,,Closed,Phone Call,Streets and Sanitation
+SR26-00301215,Graffiti removal,Completed,2026-02-18,2026-02-19,2026-02,2026-02-16,24,1,False,False,True,True,True,False,False,0.6909606481481482,,Closed,Mobile Device,Streets and Sanitation
+SR26-00780975,Graffiti removal,Completed,2026-04-27,2026-04-27,2026-04,2026-04-27,48,8,False,False,True,True,True,False,False,4.6296296296296294e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01007883,Street light outages,Completed,2026-05-28,2026-05-29,2026-05,2026-05-25,33,4,False,False,True,True,True,False,False,0.6967824074074074,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00491839,Graffiti removal,Completed,2026-03-19,2026-03-20,2026-03,2026-03-16,28,34,False,False,True,True,True,False,False,0.9474652777777778,,Closed,Internet,Streets and Sanitation
+SR26-00519974,Graffiti removal,Completed,2026-03-23,2026-03-23,2026-03,2026-03-23,5,32,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-01693846,Street potholes,Completed,2026-08-21,2026-10-15,2026-08,2026-08-17,25,37,True,False,False,True,True,False,False,54.86384259259259,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01218668,Street light outages,Completed,2026-06-22,2026-06-22,2026-06,2026-06-22,4,40,False,False,True,True,True,False,False,0.0017824074074074075,,Closed,Internet,CDOT - Department of Transportation
+SR26-00887382,Street potholes,Completed,2026-05-12,2026-05-16,2026-05,2026-05-11,60,11,False,False,True,True,True,False,False,3.961886574074074,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00103332,Graffiti removal,Completed,2026-01-16,2026-01-16,2026-01,2026-01-12,19,31,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-00946399,Street potholes,Completed,2026-05-20,2026-06-01,2026-05,2026-05-18,56,23,True,False,False,True,True,False,False,12.044756944444444,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02060788,Graffiti removal,Completed,2025-11-08,2025-11-12,2025-11,2025-11-03,13,39,False,False,True,True,True,False,False,4.229571759259259,,Closed,Mobile Device,Streets and Sanitation
+SR26-00185120,Graffiti removal,Completed,2026-01-30,2026-02-02,2026-01,2026-01-26,23,26,False,False,True,True,True,False,False,2.5672337962962963,,Closed,Mobile Device,Streets and Sanitation
+SR26-01523642,Graffiti removal,Completed,2026-07-31,2026-08-04,2026-07,2026-07-27,24,36,False,False,True,True,True,False,False,4.011712962962963,,Closed,Alderman's Office,Streets and Sanitation
+SR26-01442306,Graffiti removal,Completed,2026-07-21,2026-07-22,2026-07,2026-07-20,31,25,False,False,True,True,True,False,False,1.0544444444444445,,Closed,Internet,Streets and Sanitation
+SR26-00072634,Street potholes,Completed,2026-01-12,2026-01-15,2026-01,2026-01-12,34,11,False,False,True,True,True,False,False,2.649328703703704,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01230362,Street potholes,Completed,2026-06-23,2026-09-03,2026-06,2026-06-22,1,49,False,False,True,True,True,False,False,71.80105324074074,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00170657,Street potholes,Completed,2026-01-28,2026-01-28,2026-01,2026-01-26,51,10,False,False,True,True,True,False,False,0.0011226851851851851,,Closed,Generated In House,CDOT - Department of Transportation
+SR26-00480568,Street potholes,Completed,2026-03-17,2026-03-24,2026-03,2026-03-16,6,44,True,False,False,True,True,False,False,6.854340277777778,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02360216,Street light outages,Completed,2025-12-26,2025-12-29,2025-12,2025-12-22,51,10,False,False,True,True,True,False,False,2.4941203703703705,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00240226,Street potholes,Completed,2026-02-09,2026-02-11,2026-02,2026-02-09,6,44,True,False,False,True,True,False,False,1.9907291666666667,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00473218,Graffiti removal,Completed,2026-03-16,2026-03-16,2026-03,2026-03-16,4,40,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR25-01982142,Street light outages,Completed,2025-10-28,2025-10-29,2025-10,2025-10-27,25,29,False,False,True,True,True,False,False,0.9612962962962963,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01207048,Street light outages,Completed,2026-06-20,2026-06-29,2026-06,2026-06-15,71,6,False,False,True,True,True,False,False,8.486319444444444,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01596926,Street potholes,Completed,2026-08-10,2026-08-22,2026-08,2026-08-10,30,22,True,False,False,True,True,False,False,12.06144675925926,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01524460,Street light outages,Completed,2026-07-31,2026-07-31,2026-07,2026-07-27,73,21,True,False,False,True,True,False,False,0.24270833333333333,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-01838186,Graffiti removal,Completed,2025-10-06,2025-10-06,2025-10,2025-10-06,51,10,False,False,True,True,True,False,False,0.0001273148148148148,,Closed,Mass Entry,Streets and Sanitation
+SR26-01689648,Graffiti removal,Completed,2026-08-20,2026-08-20,2026-08,2026-08-17,26,28,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-00789122,Graffiti removal,Completed,2026-04-28,2026-04-29,2026-04,2026-04-27,42,5,False,False,True,True,True,False,False,0.5473148148148148,,Closed,Internet,Streets and Sanitation
+SR26-01110288,Graffiti removal,Completed,2026-06-10,2026-06-10,2026-06,2026-06-08,59,12,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01242009,Graffiti removal,Completed,2026-06-24,2026-06-24,2026-06,2026-06-22,6,46,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00369685,Street light outages,Completed,2026-03-02,2026-03-04,2026-03,2026-03-02,65,23,False,False,True,True,True,False,False,2.4207060185185183,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00302487,Street light outages,Completed,2026-02-18,2026-02-23,2026-02,2026-02-16,19,37,False,False,True,True,True,False,False,4.673020833333333,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00854174,Graffiti removal,Completed,2026-05-07,2026-05-11,2026-05,2026-05-04,3,46,False,False,True,True,True,False,False,4.09412037037037,,Closed,Internet,Streets and Sanitation
+SR26-00300889,Street potholes,Completed,2026-02-18,2026-03-03,2026-02,2026-02-16,69,6,False,False,True,True,True,False,False,12.953425925925925,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02012369,Graffiti removal,Completed,2025-10-31,2025-10-31,2025-10,2025-10-27,8,42,False,False,True,True,True,False,False,8.101851851851852e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01667394,Street light outages,Completed,2026-08-18,2026-08-19,2026-08,2026-08-17,25,37,False,False,True,True,True,False,False,1.0364814814814816,,Closed,Internet,CDOT - Department of Transportation
+SR25-02173986,Graffiti removal,Completed,2025-11-25,2025-11-26,2025-11,2025-11-24,15,45,False,False,True,True,True,False,False,0.6434143518518518,,Closed,Mobile Device,Streets and Sanitation
+SR26-00740492,Street potholes,Completed,2026-04-22,2026-04-23,2026-04,2026-04-20,49,9,False,False,True,True,True,False,False,0.9316319444444444,,Closed,Phone Call,CDOT - Department of Transportation
+SR25-02308745,Graffiti removal,Completed,2025-12-17,2025-12-18,2025-12,2025-12-15,22,1,False,False,True,True,True,False,False,0.9215740740740741,,Closed,Mobile Device,Streets and Sanitation
+SR26-01599034,Graffiti removal,Completed,2026-08-10,2026-08-11,2026-08,2026-08-10,22,32,False,False,True,True,True,False,False,0.8044328703703704,,Closed,Mobile Device,Streets and Sanitation
+SR26-00236347,Street potholes,Completed,2026-02-08,2026-02-13,2026-02,2026-02-02,13,39,False,False,True,True,True,False,False,4.469467592592593,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00941470,Graffiti removal,Completed,2026-05-19,2026-05-19,2026-05,2026-05-18,21,30,False,False,True,True,True,False,False,6.944444444444444e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00850757,Graffiti removal,Completed,2026-05-06,2026-05-06,2026-05,2026-05-04,23,37,False,False,True,True,True,False,False,9.259259259259259e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00494950,Graffiti removal,Completed,2026-03-19,2026-03-19,2026-03,2026-03-16,21,30,False,False,True,True,True,False,False,0.00018518518518518518,,Closed,Mass Entry,Streets and Sanitation
+SR25-01812067,Graffiti removal,Completed,2025-10-02,2025-10-03,2025-10,2025-09-29,22,35,False,False,True,True,True,False,False,0.6129861111111111,,Closed,Mobile Device,Streets and Sanitation
+SR26-00207050,Graffiti removal,Completed,2026-02-03,2026-02-04,2026-02,2026-02-02,59,12,False,False,True,True,True,False,False,0.5514467592592592,,Closed,Internet,Streets and Sanitation
+SR26-00172145,Graffiti removal,Completed,2026-01-28,2026-01-28,2026-01,2026-01-26,22,26,False,False,True,True,True,False,False,0.00015046296296296297,,Closed,Mass Entry,Streets and Sanitation
+SR25-02089164,Graffiti removal,Completed,2025-11-12,2025-11-12,2025-11,2025-11-10,28,34,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR25-02119883,Graffiti removal,Completed,2025-11-17,2025-11-17,2025-11,2025-11-17,9,41,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-00771433,Street potholes,Completed,2026-04-26,2026-04-27,2026-04,2026-04-20,52,10,False,False,True,True,True,False,False,0.7353472222222223,,Closed,Internet,CDOT - Department of Transportation
+SR26-00513910,Graffiti removal,Completed,2026-03-22,2026-03-24,2026-03,2026-03-16,28,28,False,False,True,True,True,False,False,1.5956828703703703,,Closed,Internet,Streets and Sanitation
+SR26-00554835,Street potholes,Completed,2026-03-28,2026-04-08,2026-03,2026-03-23,40,3,False,False,True,True,True,False,False,11.107395833333333,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-02283618,Graffiti removal,Completed,2025-12-12,2025-12-12,2025-12,2025-12-08,62,14,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR26-01201891,Street light outages,Completed,2026-06-19,2026-06-23,2026-06,2026-06-15,69,6,False,False,True,True,True,False,False,3.6488541666666667,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00575845,Street potholes,Completed,2026-03-31,2026-04-06,2026-03,2026-03-30,70,18,False,False,True,True,True,False,False,5.732592592592592,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00307042,Street potholes,Completed,2026-02-19,2026-02-24,2026-02,2026-02-16,21,33,False,False,True,True,True,False,False,4.787002314814814,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-01586490,Graffiti removal,Completed,2026-08-08,2026-08-10,2026-08,2026-08-03,7,43,False,False,True,True,True,False,False,1.6935300925925927,,Closed,Mobile Device,Streets and Sanitation
+SR26-00986875,Street potholes,Completed,2026-05-26,2026-08-04,2026-05,2026-05-25,14,33,True,False,False,True,True,False,False,69.82737268518518,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00105632,Graffiti removal,Completed,2026-01-17,2026-01-20,2026-01,2026-01-12,28,34,False,False,True,True,True,False,False,2.692627314814815,,Closed,Mobile Device,Streets and Sanitation
+SR26-00846156,Street potholes,Completed,2026-05-06,2026-06-09,2026-05,2026-05-04,12,45,True,False,False,True,True,False,False,33.89893518518519,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00677539,Graffiti removal,Completed,2026-04-14,2026-04-15,2026-04,2026-04-13,22,32,False,False,True,True,True,False,False,0.8271064814814815,,Closed,Mobile Device,Streets and Sanitation
+SR26-01045179,Graffiti removal,Completed,2026-06-03,2026-06-05,2026-06,2026-06-01,68,20,False,False,True,True,True,False,False,2.060150462962963,,Closed,Mobile Device,Streets and Sanitation
+SR26-01256509,Street potholes,Open,2026-06-26,,2026-06,2026-06-22,60,11,True,False,False,False,False,True,False,,116.24477972952546,Over 90 days,Mobile Device,CDOT - Department of Transportation
+SR26-00481714,Street light outages,Completed,2026-03-17,2026-03-18,2026-03,2026-03-16,35,3,False,False,True,True,True,False,False,0.9912962962962963,,Closed,Internet,CDOT - Department of Transportation
+SR26-00776283,Graffiti removal,Completed,2026-04-27,2026-04-28,2026-04,2026-04-27,66,18,False,False,True,True,True,False,False,0.9082870370370371,,Closed,Internet,Streets and Sanitation
+SR26-01758462,Graffiti removal,Completed,2026-08-28,2026-08-28,2026-08,2026-08-24,31,25,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR25-01901633,Graffiti removal,Completed,2025-10-15,2025-10-15,2025-10,2025-10-13,34,11,False,False,True,True,True,False,False,0.00018518518518518518,,Closed,Mass Entry,Streets and Sanitation
+SR26-01807175,Street light outages,Completed,2026-09-04,2026-09-10,2026-09,2026-08-31,25,29,True,False,False,True,True,False,False,5.517615740740741,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00628789,Street light outages,Completed,2026-04-07,2026-04-09,2026-04,2026-04-06,32,4,False,False,True,True,True,False,False,2.0063194444444443,,Closed,Internet,CDOT - Department of Transportation
+SR26-01765626,Street potholes,Completed,2026-08-30,2026-10-02,2026-08,2026-08-24,43,8,True,False,False,True,True,False,False,33.250474537037036,,Closed,Internet,CDOT - Department of Transportation
+SR25-02127630,Graffiti removal,Completed,2025-11-18,2025-11-19,2025-11,2025-11-17,31,25,False,False,True,True,True,False,False,0.5769675925925926,,Closed,Mobile Device,Streets and Sanitation
+SR26-00377107,Graffiti removal,Completed,2026-03-03,2026-03-03,2026-03,2026-03-02,11,41,True,False,False,True,True,False,False,0.01611111111111111,,Closed,Mobile Device,Streets and Sanitation
+SR25-01938060,Street potholes,Completed,2025-10-21,2025-10-23,2025-10,2025-10-20,28,34,False,False,True,True,True,False,False,1.889513888888889,,Closed,Internet,CDOT - Department of Transportation
+SR25-02305561,Graffiti removal,Completed,2025-12-16,2025-12-17,2025-12,2025-12-15,7,43,False,False,True,True,True,False,False,0.7384027777777777,,Closed,Mobile Device,Streets and Sanitation
+SR25-02050372,Graffiti removal,Completed,2025-11-06,2025-11-06,2025-11,2025-11-03,28,34,False,False,True,True,True,False,False,0.00016203703703703703,,Closed,Mass Entry,Streets and Sanitation
+SR26-01991108,Street potholes,Open,2026-09-29,,2026-09,2026-09-28,56,23,False,False,True,False,False,True,False,,21.122858433229165,8–30 days,Internet,CDOT - Department of Transportation
+SR25-01894893,Graffiti removal,Completed,2025-10-15,2025-10-16,2025-10,2025-10-13,24,36,False,False,True,True,True,False,False,0.948275462962963,,Closed,Internet,Streets and Sanitation
+SR25-02029169,Graffiti removal,Completed,2025-11-03,2025-11-03,2025-11,2025-11-03,30,22,False,False,True,True,True,False,False,0.00017361111111111112,,Closed,Mass Entry,Streets and Sanitation
+SR26-01746317,Street light outages,Completed,2026-08-27,2026-08-28,2026-08,2026-08-24,61,15,False,False,True,True,True,False,False,0.7433564814814815,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01511431,Graffiti removal,Completed,2026-07-29,2026-07-30,2026-07,2026-07-27,30,24,False,False,True,True,True,False,False,0.5245601851851852,,Closed,Internet,Streets and Sanitation
+SR26-00135063,Street potholes,Completed,2026-01-22,2026-02-11,2026-01,2026-01-19,16,30,True,False,False,True,True,False,False,19.810347222222223,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00669873,Graffiti removal,Completed,2026-04-13,2026-04-14,2026-04,2026-04-13,71,18,False,False,True,True,True,False,False,0.8816087962962963,,Closed,Mobile Device,Streets and Sanitation
+SR25-01996164,Graffiti removal,Completed,2025-10-29,2025-10-30,2025-10,2025-10-27,30,24,False,False,True,True,True,False,False,0.6643518518518519,,Closed,Internet,Streets and Sanitation
+SR26-01479812,Graffiti removal,Completed,2026-07-26,2026-07-27,2026-07,2026-07-20,57,14,False,False,True,True,True,False,False,0.645775462962963,,Closed,Internet,Streets and Sanitation
+SR26-00629750,Street potholes,Completed,2026-04-08,2026-04-09,2026-04,2026-04-06,75,19,False,False,True,True,True,False,False,1.3307060185185184,,Closed,Mobile Device,CDOT - Department of Transportation
+SR25-01934670,Graffiti removal,Completed,2025-10-21,2025-10-21,2025-10,2025-10-20,59,12,False,False,True,True,True,False,False,0.21592592592592594,,Closed,Mobile Device,Streets and Sanitation
+SR26-00595268,Graffiti removal,Completed,2026-04-03,2026-04-03,2026-04,2026-03-30,56,23,False,False,True,True,True,False,False,0.3655671296296296,,Closed,Internet,Streets and Sanitation
+SR26-00743675,Graffiti removal,Completed,2026-04-22,2026-04-22,2026-04,2026-04-20,63,14,False,False,True,True,True,False,False,8.101851851851852e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01255996,Street potholes,Open,2026-06-26,,2026-06,2026-06-22,15,38,False,False,True,False,False,True,False,,116.28178204434028,Over 90 days,Internet,CDOT - Department of Transportation
+SR26-01397833,Street potholes,Completed,2026-07-15,2026-09-30,2026-07,2026-07-13,61,15,False,False,True,True,True,False,False,77.12288194444444,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR26-01241783,Street light outages,Completed,2026-06-24,2026-07-24,2026-06,2026-06-22,7,2,False,False,True,True,True,False,False,29.98578703703704,,Closed,Internet,CDOT - Department of Transportation
+SR26-01321645,Street potholes,Completed,2026-07-05,2026-10-06,2026-07,2026-06-29,23,37,False,False,True,True,True,False,False,92.86325231481482,,Closed,Internet,CDOT - Department of Transportation
+SR26-01866024,Graffiti removal,Completed,2026-09-13,2026-09-14,2026-09,2026-09-07,8,2,False,False,True,True,True,False,False,0.5543518518518519,,Closed,Mobile Device,Streets and Sanitation
+SR25-02135539,Graffiti removal,Completed,2025-11-19,2025-11-19,2025-11,2025-11-17,70,18,False,False,True,True,True,False,False,0.0001388888888888889,,Closed,Mass Entry,Streets and Sanitation
+SR26-01159094,Graffiti removal,Completed,2026-06-15,2026-06-16,2026-06,2026-06-15,34,11,False,False,True,True,True,False,False,0.7801041666666667,,Closed,Mobile Device,Streets and Sanitation
+SR26-00265145,Graffiti removal,Completed,2026-02-13,2026-02-16,2026-02,2026-02-09,29,24,False,False,True,True,True,False,False,2.966886574074074,,Closed,Mobile Device,Streets and Sanitation
+SR26-00904862,Graffiti removal,Completed,2026-05-14,2026-05-14,2026-05,2026-05-11,6,32,False,False,True,True,True,False,False,8.101851851851852e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-00477665,Street light outages,Completed,2026-03-17,2026-03-18,2026-03,2026-03-16,8,42,False,False,True,True,True,False,False,1.0733564814814816,,Closed,Internet,CDOT - Department of Transportation
+SR26-00594215,Street light outages,Completed,2026-04-02,2026-04-10,2026-04,2026-03-30,58,12,False,False,True,True,True,False,False,8.063796296296296,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00579643,Street potholes,Completed,2026-04-01,2026-04-07,2026-04,2026-03-30,74,19,False,False,True,True,True,False,False,6.147939814814815,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01017426,Graffiti removal,Completed,2026-05-30,2026-06-01,2026-05,2026-05-25,24,1,False,False,True,True,True,False,False,1.9686921296296296,,Closed,Mobile Device,Streets and Sanitation
+SR26-00904847,Street potholes,Completed,2026-05-14,2026-06-09,2026-05,2026-05-11,65,23,True,False,False,True,True,False,False,25.71065972222222,,Closed,Alderman's Office,CDOT - Department of Transportation
+SR25-02037328,Graffiti removal,Completed,2025-11-04,2025-11-04,2025-11,2025-11-03,60,11,False,False,True,True,True,False,False,0.00011574074074074075,,Closed,Mass Entry,Streets and Sanitation
+SR26-00917907,Graffiti removal,Completed,2026-05-16,2026-05-18,2026-05,2026-05-11,7,43,True,False,False,True,True,False,False,1.7861921296296297,,Closed,Mobile Device,Streets and Sanitation
+SR25-02277773,Graffiti removal,Completed,2025-12-11,2025-12-12,2025-12,2025-12-08,10,41,False,False,True,True,True,False,False,0.5623611111111111,,Closed,Internet,Streets and Sanitation
+SR26-00933185,Street light outages,Completed,2026-05-18,2026-05-19,2026-05,2026-05-18,21,31,False,False,True,True,True,False,False,0.6685763888888889,,Closed,Internet,CDOT - Department of Transportation
+SR26-00211705,Street potholes,Completed,2026-02-04,2026-02-09,2026-02,2026-02-02,22,32,True,False,False,True,True,False,False,4.885173611111111,,Closed,Mobile Device,CDOT - Department of Transportation
+SR26-00805100,Graffiti removal,Completed,2026-04-30,2026-05-01,2026-04,2026-04-27,24,32,False,False,True,True,True,False,False,0.646875,,Closed,Mobile Device,Streets and Sanitation
+SR26-00976317,Street light outages,Completed,2026-05-24,2026-05-27,2026-05,2026-05-18,16,30,False,False,True,True,True,False,False,2.6441203703703704,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-00082061,Street light outages,Completed,2026-01-14,2026-01-15,2026-01,2026-01-12,28,27,False,False,True,True,True,False,False,1.415925925925926,,Closed,Internet,CDOT - Department of Transportation
+SR26-01534257,Street potholes,Open,2026-08-01,,2026-08,2026-07-27,66,14,True,False,False,False,False,True,False,,80.03292787767361,31–90 days,Alderman's Office,CDOT - Department of Transportation
+SR26-01462557,Street potholes,Open,2026-07-23,,2026-07,2026-07-20,30,22,True,False,False,False,False,True,False,,89.05599500730324,31–90 days,Mobile Device,CDOT - Department of Transportation
+SR26-00312469,Street potholes,Completed,2026-02-20,2026-02-20,2026-02,2026-02-16,67,16,False,False,True,True,True,False,False,0.0005092592592592592,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01815356,Graffiti removal,Completed,2026-09-06,2026-09-07,2026-09,2026-08-31,59,12,True,False,False,True,True,False,False,0.9463194444444445,,Closed,Internet,Streets and Sanitation
+SR26-01689647,Graffiti removal,Completed,2026-08-20,2026-08-20,2026-08,2026-08-17,26,28,False,False,True,True,True,False,False,0.00010416666666666667,,Closed,Mass Entry,Streets and Sanitation
+SR25-01931478,Graffiti removal,Completed,2025-10-20,2025-10-21,2025-10,2025-10-20,6,44,False,False,True,True,True,False,False,0.8602893518518518,,Closed,Phone Call,Streets and Sanitation
+SR26-01927715,Graffiti removal,Completed,2026-09-21,2026-09-21,2026-09,2026-09-21,31,25,False,False,True,True,True,False,False,8.101851851851852e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01061594,Graffiti removal,Completed,2026-06-05,2026-06-08,2026-06,2026-06-01,24,1,False,False,True,True,True,False,False,3.272662037037037,,Closed,Mobile Device,Streets and Sanitation
+SR26-01082858,Graffiti removal,Completed,2026-06-08,2026-06-08,2026-06,2026-06-08,24,27,False,False,True,True,True,False,False,5.787037037037037e-05,,Closed,Mass Entry,Streets and Sanitation
+SR26-01699043,Street light outages,Completed,2026-08-21,2026-08-25,2026-08,2026-08-17,23,26,False,False,True,True,True,False,False,3.769224537037037,,Closed,Phone Call,CDOT - Department of Transportation
+SR26-01656147,Street potholes,Completed,2026-08-17,2026-08-17,2026-08,2026-08-17,16,30,False,False,True,True,True,False,False,0.000625,,Closed,Generated In House,CDOT - Department of Transportation
+SR26-01676517,Street potholes,Completed,2026-08-19,2026-10-13,2026-08,2026-08-17,15,38,True,False,False,True,True,False,False,54.861875,,Closed,Internet,CDOT - Department of Transportation
